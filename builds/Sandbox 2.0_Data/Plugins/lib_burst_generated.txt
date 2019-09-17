@@ -1,0 +1,31 @@
+--platform=Windows
+--backend=burst-llvm
+--target=X64_SSE4
+--safety-checks
+--noalias
+--dump=Function
+--float-precision=Standard
+--output=D:\PhD docs\Code\Sandbox 2.0\Temp\StagingArea\Data\Plugins\lib_burst_generated
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.CopyEntities>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--5ce3e00616125a12fec72669327423c4
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.GatherArchetypeChunks>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--a8f9710c846ad1978b467d52f561b3ff
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.GatherChunks>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--04474c9df785acc7ea807e838619ec20
+--method=System.Void Unity.Entities.JobChunkExtensions/JobChunkLiveFilter_Process`1<Unity.Entities.GatherEntitiesJob>::Execute(Unity.Entities.JobChunkExtensions/JobDataLiveFilter`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--e6ac20ce36a57dcb332f973729b50655
+--method=System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Entities.ArchetypeManager/MoveAllChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--cf2103356c512d4203c16cbc596652ef
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.ArchetypeManager/RemapAllChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--0c7bb6d045c6dd83eff91c6a6cf0c633
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.ArchetypeManager/RemapArchetypesJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--cf0f81570736254d582e7109c5527faf
+--method=System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Entities.ArchetypeManager/MoveChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--966372b3a010792db152b6364965264b
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.ArchetypeManager/RemapChunksJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--12135b4f15afd8a8322ba959d3f821e5
+--method=System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Entities.ArchetypeManager/MoveChunksBetweenArchetypeJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--c46bb6cb914746780f72cd6445b25f22
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Entities.ComponentGroup/AllChunksMatchingSingleSharedComponentJob>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--9e8f32d90c530138dd3146b96929bc45
+--method=System.Void Unity.Entities.JobChunkExtensions/JobChunkLiveFilter_Process`1<Unity.Entities.WorldDiffer/BuildDestWorldGuidLookups>::Execute(Unity.Entities.JobChunkExtensions/JobDataLiveFilter`1<T>&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--29d7de1600d95094e12a266964ccfdf9
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Transforms.TransformSystem/RootLocalToWorld>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--eb856932ae034df58221a6f2fd2a4572
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Transforms.TransformSystem/InnerTreeLocalToParent>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--6add6d41bcee0d02eb8a8074b5fc783f
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Transforms.TransformSystem/LeafLocalToParent>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--ed24e1a1091fd6c65d18d49428e1bfbd
+--method=System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Transforms.TransformSystem/InnerTreeLocalToWorld>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--5261e3dc477058775c9dd725852b0526
+--method=System.Void Unity.Jobs.IJobExtensions/JobStruct`1<Unity.Transforms.TransformSystem/SortDepths>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--dabedc5ebf7f4a7bb00f1882bf7a9235
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Transforms.TransformSystem/LeafLocalToWorld>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--317847555d18289c6dbba55017d67294
+--method=System.Void UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1<Unity.Transforms.CopyInitialTransformFromGameObjectSystem/StashTransforms>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--3b58ae7e2231d70ae5e4743f26a4e9f7
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Transforms.CopyInitialTransformFromGameObjectSystem/CopyTransforms>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--c2c0623931272c0fe1e8695be05d50eb
+--method=System.Void UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1<Unity.Transforms.CopyTransformFromGameObjectSystem/StashTransforms>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--9ea4ec6ae8a39bbf43c050d9aa3176a7
+--method=System.Void Unity.Jobs.IJobParallelForExtensions/ParallelForJobStruct`1<Unity.Transforms.CopyTransformFromGameObjectSystem/CopyTransforms>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--757c6832e7e6c33d90f5f86f358d33cd
+--method=System.Void UnityEngine.Jobs.IJobParallelForTransformExtensions/TransformParallelForLoopStruct`1<Unity.Transforms.CopyTransformToGameObjectSystem/CopyTransforms>::Execute(T&,System.IntPtr,System.IntPtr,Unity.Jobs.LowLevel.Unsafe.JobRanges&,System.Int32)--58b6e63728f188093c6cbc30775e6d36
