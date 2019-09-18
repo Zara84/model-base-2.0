@@ -3,22 +3,35 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestAction : Action//, SerializedScriptableObject
+public class TestAction : Action
 {
-    public int y = 5;
-    public override float distanceToGoal()
+    public override bool canBeAppliedTo(MonoBehaviour owner, mEntity entity)
     {
-        throw new System.NotImplementedException();
+        //test if the action can be applied to a certain entity
+        return false;
     }
 
-    public override void execute()
+    public override float distanceToGoal(MonoBehaviour owner, Goal goal)
     {
-        throw new System.NotImplementedException();
+        return goal.distance(owner, this);
     }
 
-    public override bool isDoable()
+    public override void execute(MonoBehaviour owner)
     {
-        throw new System.NotImplementedException();
+        //this is what the action does
+        Debug.Log("Executing: TestAction. Owner has " + ((AgentBehavior)owner).vessels.Count + " vessels");
+    }
+
+    public override List<mEntity> getTargets(MonoBehaviour owner)
+    {
+        //returns a list of entities belonging to the owner to which the action can be applied
+        return new List<mEntity>();
+    }
+
+    public override bool isDoable(MonoBehaviour owner)
+    {
+        //check if action can be performed
+        return false;
     }
 }
 

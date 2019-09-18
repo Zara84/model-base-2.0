@@ -6,26 +6,19 @@ using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 
 
-public class Action : SerializedScriptableObject
+public abstract class Action : SerializedScriptableObject
 {
-    public int x = 2;
-
     [OdinSerialize]
     public List<mEntity> inFilter = new List<mEntity>();
     public List<mEntity> outFilter = new List<mEntity>();
 
-    public virtual bool isDoable()
-    {
-        return true;
-    }
+    public abstract bool isDoable(MonoBehaviour owner);
 
-    public virtual float distanceToGoal()
-    {
-        return 0;
-    }
+    public abstract float distanceToGoal(MonoBehaviour owner, Goal goal);
 
-    public virtual void execute()
-    {
+    public abstract void execute(MonoBehaviour owner);
 
-    }
+    public abstract List<mEntity> getTargets(MonoBehaviour owner);
+
+    public abstract bool canBeAppliedTo(MonoBehaviour owner, mEntity entity);
 }

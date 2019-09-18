@@ -60,4 +60,9 @@ public class GeneralComponents
         public float size;
         public float repaymentRate;
     }
+
+    public struct Inventory : IComponent
+    {
+        public List<mEntity> list;
+    }
 }

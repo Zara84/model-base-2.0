@@ -1,16 +1,27 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using Sirenix.OdinInspector.Editor;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class TestNorm : Norm
 {
-    public override void execute()
+    public override void execute(MonoBehaviour owner)
     {
-        throw new System.NotImplementedException();
+        action.execute(owner);
     }
 
-    public override bool isActive()
+    public override bool isActive(MonoBehaviour owner)
     {
-        throw new System.NotImplementedException();
+        // check if the context matches beliefs
+        return false;
     }
+
+    public override bool isDoable(MonoBehaviour owner)
+    {
+        return action.isDoable(owner);
+    }
+
+    
 }

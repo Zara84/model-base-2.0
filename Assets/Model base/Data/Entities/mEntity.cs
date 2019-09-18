@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿using Sirenix.OdinInspector;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public struct mEntity
+public class mEntity : SerializedScriptableObject
 {
     public string ID;
     public string name;
-    public List<IComponent> components;
+    public List<IComponent> components = new List<IComponent>();
 
 }

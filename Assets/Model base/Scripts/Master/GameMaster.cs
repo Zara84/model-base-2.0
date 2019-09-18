@@ -8,7 +8,8 @@ public class GameMaster : MonoBehaviour
 {
     public SimStep step;
     public SimProfile sim; // refactor this
-    public GameObject vessel;
+    public List<GameObject> vesselPrefabs = new List<GameObject>();
+    public GameObject vesselOwner;
 
     public Tilemap resourceMap;
     public MarineResourceBehavior resource;
@@ -39,8 +40,7 @@ public class GameMaster : MonoBehaviour
     {
         resource = resourceMap.GetComponent<MarineResourceBehavior>();
 
-        BeginDay += vessel.GetComponent<VesselBehavior>().OnBeginDay;
-        EndDay += vessel.GetComponent<VesselBehavior>().OnEndDay;
+        
 
         UpdateResource += resource.OnUpdateResource;
 
@@ -84,7 +84,27 @@ public class GameMaster : MonoBehaviour
 
     void setupHarbors()
     {
+        foreach(GameObject harbor in harbors)
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                GameObject v = Instantiate(vesselPrefabs[harbors.IndexOf(harbor)]);
 
+                v.transform.position = harbor.transform.position;
+
+                v.transform.parent = harbor.transform;
+
+                v.GetComponent<VesselBehavior>().step = step;
+                v.GetComponent<VesselBehavior>().resourceMap = resourceMap;
+                v.GetComponent<VesselBehavior>().grid = resource.grid;
+                vesselOwner.GetComponent<AgentBehavior>().vessels.Add(v);
+                v.GetComponent<VesselBehavior>().startBoat();
+                v.SetActive(true);
+
+                BeginDay += v.GetComponent<VesselBehavior>().OnBeginDay;
+                EndDay += v.GetComponent<VesselBehavior>().OnEndDay;
+            }
+        }
     }
 
     #region RaiseEvent

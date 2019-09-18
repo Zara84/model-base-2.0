@@ -73,6 +73,7 @@
     <Compile Include="Assets\Graph_Maker\Scripts\Editor\WMG_Radar_Graph_E.cs" />
     <Compile Include="Assets\Graph_Maker\Scripts\Editor\WMG_Ring_Graph_E.cs" />
     <Compile Include="Assets\Graph_Maker\Scripts\Editor\WMG_Series_E.cs" />
+    <Compile Include="Assets\Model base\Editor\AssetMaker.cs" />
     <Compile Include="Assets\Model base\Editor\MakeSimStepAsset.cs" />
     <Reference Include="Unity.Entities.Properties">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>

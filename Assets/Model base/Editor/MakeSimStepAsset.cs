@@ -44,4 +44,14 @@ public class MakeAssets
         EditorUtility.FocusProjectWindow();
         Selection.activeObject = asset;
     }
+
+    [MenuItem("Assets/Create/Model Assets/Goals/Test")]
+    public static void CreateTestGoal()
+    {
+        TestGoal asset = ScriptableObject.CreateInstance<TestGoal>();
+        AssetDatabase.CreateAsset(asset, "Assets/Model base/Data/Goals/TestGoal.asset");
+        AssetDatabase.SaveAssets();
+        EditorUtility.FocusProjectWindow();
+        Selection.activeObject = asset;
+    }
 }

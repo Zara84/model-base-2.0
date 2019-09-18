@@ -9,6 +9,7 @@ public abstract class Norm : SerializedScriptableObject
     public Action action;
     public bool active;
 
-    public abstract bool isActive();
-    public abstract void execute();
+    public abstract bool isActive(MonoBehaviour owner);
+    public abstract bool isDoable(MonoBehaviour owner);
+    public abstract void execute(MonoBehaviour owner);
 }

@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+
+
 public class MarineResourceBehavior : MonoBehaviour
 {
     [OdinSerialize]
@@ -67,7 +69,7 @@ public class MarineResourceBehavior : MonoBehaviour
     {
         foreach (KeyValuePair<Vector3Int, ResourceTile> tile in grid.resourceTiles)
         {
-            tile.Value.spawnResource();
+           // tile.Value.spawnResource();
         }
         colorResource();
 

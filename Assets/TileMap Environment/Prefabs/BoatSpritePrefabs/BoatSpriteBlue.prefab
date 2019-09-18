@@ -190,3 +190,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   resourceMap: {fileID: 0}
   homeTileIndex: {x: 0, y: 0, z: 0}
+  currentTileIndex: {x: 0, y: 0, z: 0}
+  currentCatch: 0
+  monthlyCatch: 0
+  yearCatch: 0
+  efficiency: 0.6
+  capacity: 0
+  costs: 0
+  fishPrice: 0
+  currentProfit: 0
+  currentGrossProfit: 0
+  totalProfit: 0
+  yearProfit: 0
+  sim: {fileID: 0}
+  timer: {fileID: 0}
+  quota: 0
