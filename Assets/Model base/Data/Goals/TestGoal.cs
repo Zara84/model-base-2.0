@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TestGoal : Goal
 {
-    public override float distance(MonoBehaviour owner, Action action)
+    public override float distance(MonoBehaviour owner, MAction action)
     {
         //calculate distance to goal after applying action
 

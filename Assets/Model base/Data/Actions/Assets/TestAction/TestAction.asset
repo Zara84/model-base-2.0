@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8332c97867120d94db1bba8249720600, type: 3}
+  m_Name: TestAction
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  inFilter:
+  - {fileID: 11400000, guid: 5e26261a68b33d74cab1a9821d8a13ec, type: 2}
+  - {fileID: 11400000, guid: 1f9c58e32cbdf48488d774802db1bdd2, type: 2}
+  - {fileID: 11400000, guid: 5a35e8bd6504e8241a4cdda176d6a85c, type: 2}
+  - {fileID: 11400000, guid: 76a1a9d5a5dd31d47872839f47b3e578, type: 2}
+  outFilter:
+  - {fileID: 11400000, guid: fe7dafaa951b47644ac59ec396286159, type: 2}
+  - {fileID: 11400000, guid: d95672b2f5ef6eb408b1c58c773e2c3a, type: 2}

@@ -49,7 +49,7 @@ public class AssetMaker : OdinEditorWindow
     [Button("New action")]
     public void makeAction()
     {
-        System.Reflection.Assembly assembly = typeof(Action).Assembly;
+        System.Reflection.Assembly assembly = typeof(MAction).Assembly;
         string name = Selection.activeObject.name;
         Type type = assembly.GetType(name);
         //Debug.Log(type);
@@ -58,7 +58,7 @@ public class AssetMaker : OdinEditorWindow
         var asset = CreateInstance(name);
         Convert.ChangeType(asset, type);
 
-        if (asset is Action)
+        if (asset is MAction)
         {
           //  isNorm = true;
             AssetDatabase.CreateAsset(asset, "Assets/Model base/Data/Actions/Assets/" + name + ".asset");
@@ -76,7 +76,7 @@ public class AssetMaker : OdinEditorWindow
     [Button("New goal")]
     public void makeGoal()
     {
-        System.Reflection.Assembly assembly = typeof(Action).Assembly;
+        System.Reflection.Assembly assembly = typeof(MAction).Assembly;
         string name = Selection.activeObject.name;
         Type type = assembly.GetType(name);
         //Debug.Log(type);

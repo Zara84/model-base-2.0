@@ -7,7 +7,7 @@ public class AgentBehavior : SerializedMonoBehaviour
 {
     public List<mEntity> entities = new List<mEntity>();
 
-    public List<Action> actions = new List<Action>();
+    public List<MAction> actions = new List<MAction>();
 
     public List<Norm> norms = new List<Norm>();
 
@@ -22,9 +22,10 @@ public class AgentBehavior : SerializedMonoBehaviour
             vessel.GetComponent<VesselBehavior>().VesselReturns += OnVesselReturn;
         }
 
-        foreach (Action a in actions)
+        foreach (MAction a in actions)
         {
             a.execute(this);
+            
         }
     }
 

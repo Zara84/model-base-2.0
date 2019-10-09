@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestAction : Action
+public class TestAction : MAction
 {
     public override bool canBeAppliedTo(MonoBehaviour owner, mEntity entity)
     {

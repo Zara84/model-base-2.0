@@ -75,6 +75,26 @@
     <Compile Include="Assets\Graph_Maker\Scripts\Editor\WMG_Series_E.cs" />
     <Compile Include="Assets\Model base\Editor\AssetMaker.cs" />
     <Compile Include="Assets\Model base\Editor\MakeSimStepAsset.cs" />
+    <Compile Include="Assets\xNode\Examples\MathGraph\Editor\MathGraphEditor.cs" />
+    <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\Editor\DisplayValueEditor.cs" />
+    <Compile Include="Assets\xNode\Examples\StateMachine\Editor\StateGraphEditor.cs" />
+    <Compile Include="Assets\xNode\Examples\StateMachine\Nodes\Editor\StateNodeEditor.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\Drawers\NodeEnumDrawer.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditor.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorAction.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorAssetModProcessor.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorBase.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorGUI.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorGUILayout.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorPreferences.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorReflection.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorResources.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorUtilities.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeEditorWindow.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\NodeGraphEditor.cs" />
+    <Compile Include="Assets\xNode\Scripts\Editor\RenamePopup.cs" />
+    <None Include="Assets\xNode\Scripts\Editor\Resources\ScriptTemplates\xNode_NodeTemplate.cs.txt" />
+    <None Include="Assets\xNode\Scripts\Editor\Resources\ScriptTemplates\xNode_NodeGraphTemplate.cs.txt" />
     <Reference Include="Unity.Entities.Properties">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
     </Reference>

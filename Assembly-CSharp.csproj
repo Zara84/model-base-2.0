@@ -74,6 +74,8 @@
     <Compile Include="Assets\__Deprecated\ECS test scripts\Map Scripts\ColorJob.cs" />
     <Compile Include="Assets\__Deprecated\ECS test scripts\Map Scripts\GameManager.cs" />
     <Compile Include="Assets\__Deprecated\ECS test scripts\Map Scripts\Tile.cs" />
+    <Compile Include="Assets\__Deprecated\StructScripts\Components.cs" />
+    <Compile Include="Assets\__Deprecated\StructScripts\StructData.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Dynamic\WMG_X_Data_Provider.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Dynamic\WMG_X_Dynamic.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Equation_Plotter\WMG_X_Equation_Plotter.cs" />
@@ -121,7 +123,7 @@
     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Ring.cs" />
     <Compile Include="Assets\Graph_Maker\Scripts\WMG_Series.cs" />
     <Compile Include="Assets\Model base\Data scripts\SimStep.cs" />
-    <Compile Include="Assets\Model base\Data\Actions\Action.cs" />
+    <Compile Include="Assets\Model base\Data\Actions\Base\MAction.cs" />
     <Compile Include="Assets\Model base\Data\Actions\BlaAction.cs" />
     <Compile Include="Assets\Model base\Data\Actions\Interface\IAction.cs" />
     <Compile Include="Assets\Model base\Data\Actions\SomeAction.cs" />
@@ -131,6 +133,7 @@
     <Compile Include="Assets\Model base\Data\Entities\Archetypes\VesselArchetypes.cs" />
     <Compile Include="Assets\Model base\Data\Entities\mEntity.cs" />
     <Compile Include="Assets\Model base\Data\Goals\Goal.cs" />
+    <Compile Include="Assets\Model base\Data\Goals\SomeGoal.cs" />
     <Compile Include="Assets\Model base\Data\Goals\TestGoal.cs" />
     <Compile Include="Assets\Model base\Data\Norms\Norm.cs" />
     <Compile Include="Assets\Model base\Data\Norms\SomeNorm.cs" />
@@ -141,9 +144,8 @@
     <Compile Include="Assets\Model base\Scripts\Resource\MarineResourceBehavior.cs" />
     <Compile Include="Assets\Model base\Scripts\Resource\ResourceGrid.cs" />
     <Compile Include="Assets\Model base\Scripts\Resource\ResourceTile.cs" />
+    <Compile Include="Assets\Model base\Scripts\Utils\EntityAdder.cs" />
     <Compile Include="Assets\Model base\Scripts\Vessel\VesselBehavior.cs" />
-    <Compile Include="Assets\StructScripts\Components.cs" />
-    <Compile Include="Assets\StructScripts\StructData.cs" />
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Boat Movement Scripts\BoatMaster.cs" />
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Boat Movement Scripts\BoatTileMovement.cs" />
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\GameMaster Scripts\DataManager.cs" />
@@ -154,12 +156,36 @@
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Scriptables\AgentData.cs" />
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Scriptables\BoatProfile.cs" />
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Scriptables\SimProfile.cs" />
+    <Compile Include="Assets\xNode\Examples\MathGraph\MathGraph.cs" />
+    <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\DisplayValue.cs" />
+    <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\MathNode.cs" />
+    <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\Vector.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\Connection.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\NodeDrag.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeMathGraph.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIDisplayValue.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathBaseNode.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathNode.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIVector.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUIContextMenu.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUIPort.cs" />
+    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUITooltip.cs" />
+    <Compile Include="Assets\xNode\Examples\StateMachine\Nodes\StateNode.cs" />
+    <Compile Include="Assets\xNode\Examples\StateMachine\StateGraph.cs" />
+    <Compile Include="Assets\xNode\Scripts\Attributes\NodeEnum.cs" />
+    <Compile Include="Assets\xNode\Scripts\Node.cs" />
+    <Compile Include="Assets\xNode\Scripts\NodeDataCache.cs" />
+    <Compile Include="Assets\xNode\Scripts\NodeGraph.cs" />
+    <Compile Include="Assets\xNode\Scripts\NodePort.cs" />
     <None Include="Assets\Graph_Maker\Shaders\ComputeCircularBand.compute" />
     <None Include="Assets\Graph_Maker\DOTween\readme.txt" />
     <None Include="Assets\Graph_Maker\Shaders\AreaShading.shader" />
     <None Include="Assets\Graph_Maker\Shaders\AreaShading_SF.shader" />
+    <None Include="Assets\__Custom Script Templates\95-Model Assets__New goal-NewGoal.cs.txt" />
     <None Include="Assets\Graph_Maker\ReadMe-1.5.8.txt" />
+    <None Include="Assets\__Custom Script Templates\93-Model Assets__New norm-NewNorm.cs.txt" />
     <None Include="Assets\Graph_Maker\Shaders\ComputeLineGraph.compute" />
+    <None Include="Assets\__Custom Script Templates\94-Model Assets__New action-NewAction.cs.txt" />
     <Reference Include="Unity.Entities.Properties">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
     </Reference>

@@ -5,8 +5,22 @@ using UnityEngine;
 
 public abstract class Norm : SerializedScriptableObject
 {
+    [BoxGroup("Filter")]
+   // [AssetList]
     public List<mEntity> context = new List<mEntity>();
-    public Action action;
+    [BoxGroup("Context")]
+    [Button("Add new entity to context")]
+    private void addInEntity()
+    {
+        addEntity(context, "Context");
+    }
+    void addEntity(List<mEntity> list, string folderName)
+    {
+        EntityAdder.AddEntity(list, folderName);
+    }
+
+    [AssetList]
+    public MAction action;
     public bool active;
 
     public abstract bool isActive(MonoBehaviour owner);

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlaAction: Action
+public class BlaAction: MAction
 {
     public override bool canBeAppliedTo(MonoBehaviour owner, mEntity entity)
     {
