@@ -26,7 +26,49 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[IComponent, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|GeneralComponents+Inventory, Assembly-CSharp
+    - Name: list
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|GeneralComponents+Income, Assembly-CSharp
+    - Name: income
+      Entry: 4
       Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|VesselComponents+Catch, Assembly-CSharp
+    - Name: size
+      Entry: 4
+      Data: 0
+    - Name: species
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|GeneralComponents+MaintenanceCost, Assembly-CSharp
+    - Name: cost
+      Entry: 4
+      Data: 0
+    - Name: period
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 

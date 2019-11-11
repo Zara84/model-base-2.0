@@ -33,7 +33,7 @@ public abstract class MAction : SerializedScriptableObject
         EntityAdder.AddEntity(list, folderName);
         
     }
-    public abstract bool isDoable(MonoBehaviour owner);
+    public abstract bool  isDoable(MonoBehaviour owner);
 
     public abstract float distanceToGoal(MonoBehaviour owner, Goal goal);
 

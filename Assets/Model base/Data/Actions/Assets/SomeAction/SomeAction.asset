@@ -23,6 +23,7 @@ MonoBehaviour:
     SerializationNodes: []
   inFilter:
   - {fileID: 11400000, guid: 17a7f78e302569443b1b292769a930e1, type: 2}
+  - {fileID: 11400000, guid: 5652103d882fd0648b66640cd4cf96c8, type: 2}
   outFilter:
   - {fileID: 11400000, guid: 77ad62ca76c8b084bbb2b3aaadd2938b, type: 2}
   - {fileID: 11400000, guid: fa69f0f665a8316409c988b949ad9751, type: 2}

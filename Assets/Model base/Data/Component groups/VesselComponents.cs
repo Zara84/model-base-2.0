@@ -4,37 +4,42 @@ using UnityEngine;
 
 public class VesselComponents
 {
-    public struct Capacity : IComponent
+    public class Capacity : IComponent
     {
-        public float capacity;
+        public float capacity = 0;
     }
 
-    public struct Catch : IComponent
+    public class Catch : IComponent
     {
-        public float size;
-        public string species;
+        public float size = 0;
+        public string species = "";
     }
 
-    public struct Gear : IComponent
+    public class Gear : IComponent
     {
-        public string name;
-        public string targetSpecies;
+        public string name = "";
+        public string targetSpecies = "";
     }
 
-    public struct BaseQuota : IComponent
+    public class BaseQuota : IComponent
     {
-        public float quota;
-        public string species;
+        public float quota = 0;
+        public string species = "";
     }
 
-    public struct Crew : IComponent
+    public class Crew : IComponent
     {
-        public int crewNumber;
+        public int crewNumber = 0;
     }
 
-    public struct VesselObject : IComponent
+    public class VesselObject : IComponent
     {
-        public VesselBehavior vessel;
+        public VesselBehavior vessel = new VesselBehavior();
+    }
+
+    public class Depth
+    {
+        public int depth = 0;
     }
 
 }

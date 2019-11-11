@@ -26,7 +26,52 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[IComponent, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 1|VesselComponents+BaseQuota, Assembly-CSharp
+    - Name: quota
+      Entry: 4
       Data: 0
+    - Name: species
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|VesselComponents+Gear, Assembly-CSharp
+    - Name: name
+      Entry: 6
+      Data: 
+    - Name: targetSpecies
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|GeneralComponents+Loan, Assembly-CSharp
+    - Name: size
+      Entry: 4
+      Data: 0
+    - Name: repaymentRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|GeneralComponents+Price, Assembly-CSharp
+    - Name: price
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 

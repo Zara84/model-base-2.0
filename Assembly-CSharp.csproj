@@ -76,52 +76,6 @@
     <Compile Include="Assets\__Deprecated\ECS test scripts\Map Scripts\Tile.cs" />
     <Compile Include="Assets\__Deprecated\StructScripts\Components.cs" />
     <Compile Include="Assets\__Deprecated\StructScripts\StructData.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Dynamic\WMG_X_Data_Provider.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Dynamic\WMG_X_Dynamic.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Equation_Plotter\WMG_X_Equation_Plotter.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Interactive_Pie\WMG_X_Interactive_Pie.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Pie_Ring_Graph\WMG_X_Pie_Ring_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Plot_Overtime\WMG_X_Plot_Overtime.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Ring_Graph\WMG_X_Ring_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Simple_Pie\WMG_X_Simple_Pie.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_Tutorial_1\WMG_X_Tutorial_1.cs" />
-    <Compile Include="Assets\Graph_Maker\Examples\X_WorldSpace\WMG_X_WorldSpace.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Axis_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Bezier_Band_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Grid.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Hierarchical_Tree.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Pie_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Radar_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Random_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Graphs\WMG_Ring_Graph.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Anim.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Events.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Graph_Tooltip.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_GUI_Functions.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Image_Custom_Mat.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Raycaster.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Raycatcher.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\GUIDependent\WMG_Text_Functions.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Utils\WMG_Change_Obj.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Utils\WMG_EnumFlagAttribute.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Utils\WMG_Enums.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Utils\WMG_List.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Utils\WMG_Reflection.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\Utils\WMG_Util.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Axis.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Bezier_Band.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Compute_Shader.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_ComputeLineGraph_Data.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Data_Source.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Graph_Auto_Anim.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Graph_Manager.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Legend.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Legend_Entry.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Link.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Node.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Pie_Graph_Slice.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Ring.cs" />
-    <Compile Include="Assets\Graph_Maker\Scripts\WMG_Series.cs" />
     <Compile Include="Assets\Model base\Data scripts\SimStep.cs" />
     <Compile Include="Assets\Model base\Data\Actions\Base\MAction.cs" />
     <Compile Include="Assets\Model base\Data\Actions\BlaAction.cs" />
@@ -135,9 +89,20 @@
     <Compile Include="Assets\Model base\Data\Goals\Goal.cs" />
     <Compile Include="Assets\Model base\Data\Goals\SomeGoal.cs" />
     <Compile Include="Assets\Model base\Data\Goals\TestGoal.cs" />
+    <Compile Include="Assets\Model base\Data\NewNorm.cs" />
     <Compile Include="Assets\Model base\Data\Norms\Norm.cs" />
     <Compile Include="Assets\Model base\Data\Norms\SomeNorm.cs" />
     <Compile Include="Assets\Model base\Data\Norms\TestNorm.cs" />
+    <Compile Include="Assets\Model base\Graphs\Tests\Scripts\Nodes\ActionNode.cs" />
+    <Compile Include="Assets\Model base\Graphs\Tests\Scripts\Nodes\Base\CognitiveElementNode.cs" />
+    <Compile Include="Assets\Model base\Graphs\Tests\Scripts\Nodes\GoalNode.cs" />
+    <Compile Include="Assets\Model base\Graphs\Utils\GraphStyle.cs" />
+    <Compile Include="Assets\Model base\Graphs\Utils\NodeFilter.cs" />
+    <Compile Include="Assets\Model base\Graphs\Utils\NodeFilterStyle.cs" />
+    <Compile Include="Assets\Model base\Graphs\Utils\NodeIComponent.cs" />
+    <Compile Include="Assets\Model base\Graphs\Utils\NodeMEntity.cs" />
+    <Compile Include="Assets\Model base\NewNode.cs" />
+    <Compile Include="Assets\Model base\NewNodeGraph.cs" />
     <Compile Include="Assets\Model base\Scripts\Agents\AgentBehavior.cs" />
     <Compile Include="Assets\Model base\Scripts\Harbor\HarborBehavior.cs" />
     <Compile Include="Assets\Model base\Scripts\Master\GameMaster.cs" />
@@ -156,35 +121,31 @@
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Scriptables\AgentData.cs" />
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Scriptables\BoatProfile.cs" />
     <Compile Include="Assets\TileMap Environment\TileMap Scripts\Scriptables\SimProfile.cs" />
-    <Compile Include="Assets\xNode\Examples\MathGraph\MathGraph.cs" />
-    <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\DisplayValue.cs" />
-    <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\MathNode.cs" />
-    <Compile Include="Assets\xNode\Examples\MathGraph\Nodes\Vector.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\Connection.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\NodeDrag.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeMathGraph.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIDisplayValue.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathBaseNode.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathNode.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIVector.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUIContextMenu.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUIPort.cs" />
-    <Compile Include="Assets\xNode\Examples\RuntimeMathGraph\Scripts\UGUITooltip.cs" />
-    <Compile Include="Assets\xNode\Examples\StateMachine\Nodes\StateNode.cs" />
-    <Compile Include="Assets\xNode\Examples\StateMachine\StateGraph.cs" />
-    <Compile Include="Assets\xNode\Scripts\Attributes\NodeEnum.cs" />
-    <Compile Include="Assets\xNode\Scripts\Node.cs" />
-    <Compile Include="Assets\xNode\Scripts\NodeDataCache.cs" />
-    <Compile Include="Assets\xNode\Scripts\NodeGraph.cs" />
-    <Compile Include="Assets\xNode\Scripts\NodePort.cs" />
-    <None Include="Assets\Graph_Maker\Shaders\ComputeCircularBand.compute" />
-    <None Include="Assets\Graph_Maker\DOTween\readme.txt" />
-    <None Include="Assets\Graph_Maker\Shaders\AreaShading.shader" />
-    <None Include="Assets\Graph_Maker\Shaders\AreaShading_SF.shader" />
+    <Compile Include="Assets\xNode-master\Examples\LogicToy\ITimerTick.cs" />
+    <Compile Include="Assets\xNode-master\Examples\LogicToy\LogicGraph.cs" />
+    <Compile Include="Assets\xNode-master\Examples\LogicToy\Nodes\AndNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\LogicToy\Nodes\LogicNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\LogicToy\Nodes\NotNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\LogicToy\Nodes\PulseNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\LogicToy\Nodes\ToggleNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\MathGraph\MathGraph.cs" />
+    <Compile Include="Assets\xNode-master\Examples\MathGraph\Nodes\DisplayValue.cs" />
+    <Compile Include="Assets\xNode-master\Examples\MathGraph\Nodes\MathNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\MathGraph\Nodes\Vector.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\Connection.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\NodeDrag.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\RuntimeMathGraph.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIDisplayValue.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathBaseNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIMathNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\RuntimeNodes\UGUIVector.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\UGUIContextMenu.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\UGUIPort.cs" />
+    <Compile Include="Assets\xNode-master\Examples\RuntimeMathGraph\Scripts\UGUITooltip.cs" />
+    <Compile Include="Assets\xNode-master\Examples\StateMachine\Nodes\StateNode.cs" />
+    <Compile Include="Assets\xNode-master\Examples\StateMachine\StateGraph.cs" />
     <None Include="Assets\__Custom Script Templates\95-Model Assets__New goal-NewGoal.cs.txt" />
-    <None Include="Assets\Graph_Maker\ReadMe-1.5.8.txt" />
     <None Include="Assets\__Custom Script Templates\93-Model Assets__New norm-NewNorm.cs.txt" />
-    <None Include="Assets\Graph_Maker\Shaders\ComputeLineGraph.compute" />
     <None Include="Assets\__Custom Script Templates\94-Model Assets__New action-NewAction.cs.txt" />
     <Reference Include="Unity.Entities.Properties">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
@@ -878,9 +839,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{923FE07C-76C6-8CC7-BD28-E2582C52252C}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.csproj">
       <Project>{B8143FE6-7903-806B-0B4E-CEEA709043A9}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="XNode.csproj">
+      <Project>{37F6FD6A-5777-5B88-8640-53A58240CA59}</Project>
+      <Name>XNode</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnchangingExternal.csproj">
+      <Project>{EEF55991-46B6-E4F8-9728-CB368835C909}</Project>
+      <Name>UnchangingExternal</Name>
+    </ProjectReference>
+    <ProjectReference Include="XNodeEditor.csproj">
+      <Project>{6B372487-07AD-3344-D092-DA9F1A33E4E9}</Project>
+      <Name>XNodeEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
       <Project>{1B946FAA-4F78-D6FE-0F78-1C6D0ADD8E6C}</Project>

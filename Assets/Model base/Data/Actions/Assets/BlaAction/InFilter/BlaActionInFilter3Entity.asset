@@ -26,7 +26,19 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[IComponent, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 1|GeneralComponents+Loan, Assembly-CSharp
+    - Name: size
+      Entry: 4
       Data: 0
+    - Name: repaymentRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 

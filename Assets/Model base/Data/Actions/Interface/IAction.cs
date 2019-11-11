@@ -4,12 +4,16 @@ using UnityEngine;
 
 public interface IAction
 {
-    List<mEntity> inFilter { get; }
-    List<mEntity> outFilter { get; }
+    List<mEntity> inFilter { get; set; }
+    List<mEntity> outFilter { get; set; }
 
-    bool isDoable();
+     bool isDoable(MonoBehaviour owner);
 
-    float distanceToGoal();
+     float distanceToGoal(MonoBehaviour owner, Goal goal);
 
-    void execute();
+     void execute(MonoBehaviour owner);
+
+     List<mEntity> getTargets(MonoBehaviour owner);
+
+     bool canBeAppliedTo(MonoBehaviour owner, mEntity entity);
 }

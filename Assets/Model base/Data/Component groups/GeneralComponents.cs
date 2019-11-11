@@ -4,65 +4,65 @@ using UnityEngine;
 
 public class GeneralComponents 
 {
-    public struct Efficiency : IComponent
+    public class Efficiency : IComponent
     {
-        public float efficiency;
+        public float efficiency = 0;
     }
 
-    public struct Cost : IComponent
+    public class Cost : IComponent
     {
-        public float cost;
+        public float cost = 0;
     }
 
-    public struct MaintenanceCost : IComponent
+    public class MaintenanceCost : IComponent
     {
-        public float cost;
-        public int period;
+        public float cost = 0;
+        public int period = 0;
     }
 
-    public struct Speed : IComponent
+    public class Speed : IComponent
     {
-        public float speed;
+        public float speed = 0;
     }
 
-    public struct Position : IComponent
+    public class Position : IComponent
     {
-        public Vector3 position;
+        public Vector3 position = Vector3.zero;
     }
 
-    public struct ColorComponent : IComponent
+    public class ColorComponent : IComponent
     {
-        public Color color;
+        public Color color = Color.black;
     }
 
-    public struct Profit : IComponent
+    public class Profit : IComponent
     {
-        public float profit;
+        public float profit = 0;
     }
 
-    public struct Income : IComponent
+    public class Income : IComponent
     {
-        public float income;
+        public float income = 0;
     }
 
-    public struct Price : IComponent
+    public class Price : IComponent
     {
-        public float price;
+        public float price = 0;
     }
 
-    public struct Owner : IComponent
+    public class Owner : IComponent
     {
-        public GameObject owner;
+        public GameObject owner = new GameObject();
     }
 
-    public struct Loan : IComponent
+    public class Loan : IComponent
     {
-        public float size;
-        public float repaymentRate;
+        public float size = 0;
+        public float repaymentRate = 0;
     }
 
-    public struct Inventory : IComponent
+    public class Inventory : IComponent
     {
-        public List<mEntity> list;
+        public List<mEntity> list = new List<mEntity>();
     }
 }
