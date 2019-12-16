@@ -1,26 +1,23 @@
 ﻿using Sirenix.OdinInspector;
-using Sirenix.OdinInspector.Editor;
-using System.Collections;
+using Sirenix.Serialization;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using UnityEditor;
 using UnityEngine;
 using XNode;
-using XNodeEditor;
 
-public class NodeMEntity : SerializedScriptableObject
+public class NodeMEntity //: SerializedScriptableObject
 {
-  //  [HideInInspector]
-    public Node parent;
-    public NodeFilter parentFilter;
+     public Node parent;
+     public NodeFilter parentFilter;
+     public List<NodeIComponent> components = new List<NodeIComponent>();
+     public NodePort port;
+     public NodeMEntityStyle style = new NodeMEntityStyle();
+     public PortOrientation orientation;
+     public mEntity entity;
+     public string nodeName;
 
-   // [ListDrawerSettings(OnEndListElementGUI = "DrawPort"), FoldoutGroup("TestGroup")]
-    public List<NodeIComponent> components = new List<NodeIComponent>();
-
-   // [HideInInspector]
-    public NodePort port;
-  //  [HideInInspector]
-    public NodeMEntityStyle style = new NodeMEntityStyle();
-    //public PropertyTree tree;
-    public PortOrientation orientation;
     public NodeMEntity(mEntity entity, Node node, PortOrientation orientation)
     {
         this.orientation = orientation;
@@ -35,23 +32,52 @@ public class NodeMEntity : SerializedScriptableObject
         }
 
         // tree = PropertyTree.Create(components);
-        if (orientation == PortOrientation.Out)
-            port = node.AddDynamicOutput(typeof(bool));
-        else
-            port = node.AddDynamicInput(typeof(bool));
+       // if (nodeName=="")
+        {
+            if (orientation == PortOrientation.Out)
+                port = node.AddDynamicOutput(typeof(bool));
+            else
+                port = node.AddDynamicInput(typeof(bool));
 
+            nodeName = port.fieldName;
+        }
+        Debug.Log(port.fieldName);
         style = new NodeMEntityStyle();
         style.unfolded = false;
         style.portVisible = false;
     }
 
-    public void Dispose()
+    public void init(mEntity entity, Node node, PortOrientation orientation)
     {
-        foreach(NodeIComponent c in components)
-        {
-            c.Dispose();
-        }
-    }
+       // port = CreateInstance("NodePort") as NodePort;
+        this.orientation = orientation;
+        this.entity = entity;
 
-    
+        parent = node;
+        Debug.Log("entity components: " + entity.components.Count);
+        foreach (IComponent c in entity.components)
+        {
+          //  NodeIComponent comp = CreateInstance("NodeIComponent") as NodeIComponent;
+          //  AssetDatabase.SaveAssets();
+
+          //  comp.init(c, node, this, orientation);
+            NodeIComponent comp = new NodeIComponent(c, node, orientation);
+            comp.parentEntity = this;
+            Debug.Log(comp);
+            components.Add(comp);
+        }
+
+        // tree = PropertyTree.Create(components);
+      //  if (port == null)
+        {
+            if (orientation == PortOrientation.Out)
+                port = node.AddDynamicOutput(typeof(bool));
+            else
+                port = node.AddDynamicInput(typeof(bool));
+        }
+            style = new NodeMEntityStyle();
+            style.unfolded = false;
+            style.portVisible = false;
+        AssetDatabase.SaveAssets();
+    }
 }

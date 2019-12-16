@@ -1,4 +1,5 @@
 ﻿using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
@@ -23,8 +24,8 @@ namespace XNode {
     /// }
     /// </code>
     /// </example>
-    [Serializable]
-    public abstract class Node : ScriptableObject {
+    
+    public abstract class Node : SerializedScriptableObject {
         /// <summary> Used by <see cref="InputAttribute"/> and <see cref="OutputAttribute"/> to determine when to display the field value associated with a <see cref="NodePort"/> </summary>
         public enum ShowBackingValue {
             /// <summary> Never show the backing value </summary>
@@ -106,11 +107,12 @@ namespace XNode {
         /// <summary> Iterate over all dynamic inputs on this node. </summary>
         public IEnumerable<NodePort> DynamicInputs { get { foreach (NodePort port in Ports) { if (port.IsDynamic && port.IsInput) yield return port; } } }
         /// <summary> Parent <see cref="NodeGraph"/> </summary>
-        [SerializeField] public NodeGraph graph;
+        [NonSerialized, OdinSerialize] public NodeGraph graph;
         /// <summary> Position on the <see cref="NodeGraph"/> </summary>
-        [SerializeField] public Vector2 position;
+        [NonSerialized, OdinSerialize] public Vector2 position;
         /// <summary> It is recommended not to modify these at hand. Instead, see <see cref="InputAttribute"/> and <see cref="OutputAttribute"/> </summary>
-        [SerializeField] private NodePortDictionary ports = new NodePortDictionary();
+        //  [NonSerialized, OdinSerialize] private NodePortDictionary ports = new NodePortDictionary();
+        [NonSerialized, OdinSerialize] private Dictionary<string, NodePort> ports = new Dictionary<string, NodePort>();
 
         /// <summary> Used during node instantiation to fix null/misconfigured graph during OnEnable/Init. Set it before instantiating a node. Will automatically be unset during OnEnable </summary>
         public static NodeGraph graphHotfix;
@@ -124,7 +126,7 @@ namespace XNode {
 
         /// <summary> Update static ports to reflect class fields. This happens automatically on enable. </summary>
         public void UpdateStaticPorts() {
-            NodeDataCache.UpdatePorts(this, ports);
+            //NodeDataCache.UpdatePorts(this, ports);
         }
 
         /// <summary> Initialize node. Called on enable. </summary>
@@ -334,6 +336,11 @@ namespace XNode {
                 color = new Color(r, g, b);
             }
 
+            public NodeTintAttribute(float r, float g, float b, float a)
+            {
+                color = new Color(r, g, b, a);
+            }
+
             /// <summary> Specify a color for this node type </summary>
             /// <param name="hex"> HEX color value </param>
             public NodeTintAttribute(string hex) {
@@ -347,16 +354,6 @@ namespace XNode {
             public NodeTintAttribute(byte r, byte g, byte b) {
                 color = new Color32(r, g, b, byte.MaxValue);
             }
-
-            public NodeTintAttribute(byte r, byte g, byte b, byte a)
-            {
-                color = new Color32(r, g, b, a);
-            }
-
-            public NodeTintAttribute(float r, float g, float b, float a)
-            {
-                color = new Color(r, g, b, a);
-            }
         }
 
         [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
@@ -367,20 +364,32 @@ namespace XNode {
             public NodeWidthAttribute(int width) {
                 this.width = width;
             }
+
+            
         }
 #endregion
 
-        [Serializable] private class NodePortDictionary : Dictionary<string, NodePort>, ISerializationCallbackReceiver {
-            [SerializeField] private List<string> keys = new List<string>();
-            [SerializeField] private List<NodePort> values = new List<NodePort>();
+        [Serializable] public class NodePortDictionary : Dictionary<string, NodePort>, ISerializationCallbackReceiver {
+            [SerializeField] public List<string> keys = new List<string>();
+            [SerializeField] public List<NodePort> values = new List<NodePort>();
+
+            public void clearPorts()
+            {
+                keys.Clear();
+                values.Clear();
+                this.Clear();
+                Debug.Log("cleared port stuff");
+            }
 
             public void OnBeforeSerialize() {
                 keys.Clear();
                 values.Clear();
+
                 foreach (KeyValuePair<string, NodePort> pair in this) {
                     keys.Add(pair.Key);
                     values.Add(pair.Value);
                 }
+            //    Debug.Log("on before serialize something");
             }
 
             public void OnAfterDeserialize() {
@@ -391,6 +400,8 @@ namespace XNode {
 
                 for (int i = 0; i < keys.Count; i++)
                     this.Add(keys[i], values[i]);
+
+              //  Debug.Log("on after serialize something");
             }
         }
     }

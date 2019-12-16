@@ -62,16 +62,11 @@
   <ItemGroup>
     <Compile Include="Assets\Model base\Editor\AssetMaker.cs" />
     <Compile Include="Assets\Model base\Editor\MakeSimStepAsset.cs" />
-    <Compile Include="Assets\Model base\Editor\SimpleEditor.cs" />
     <Compile Include="Assets\Model base\Graphs\Tests\Editor\ActNodeEditor.cs" />
     <Compile Include="Assets\Model base\Graphs\Tests\Editor\GoalNodeEditor.cs" />
     <Compile Include="Assets\Model base\Graphs\Tests\Editor\NewGraphEditor.cs" />
-    <Compile Include="Assets\xNode-master\Examples\LogicToy\Editor\LogicGraphEditor.cs" />
-    <Compile Include="Assets\xNode-master\Examples\LogicToy\Editor\LogicNodeEditor.cs" />
-    <Compile Include="Assets\xNode-master\Examples\MathGraph\Editor\MathGraphEditor.cs" />
-    <Compile Include="Assets\xNode-master\Examples\MathGraph\Nodes\Editor\DisplayValueEditor.cs" />
-    <Compile Include="Assets\xNode-master\Examples\StateMachine\Editor\StateGraphEditor.cs" />
-    <Compile Include="Assets\xNode-master\Examples\StateMachine\Nodes\Editor\StateNodeEditor.cs" />
+    <Compile Include="Assets\Model base\Graphs\Tests\Editor\NormNodeEditor.cs" />
+    <Compile Include="Assets\Model base\Graphs\Tests\Editor\SimpleEditor.cs" />
     <Reference Include="Unity.Entities.Properties">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Library/ScriptAssemblies/Unity.Entities.Properties.dll</HintPath>
     </Reference>

@@ -35,7 +35,7 @@ public abstract class MAction : SerializedScriptableObject
     }
     public abstract bool  isDoable(MonoBehaviour owner);
 
-    public abstract float distanceToGoal(MonoBehaviour owner, Goal goal);
+    public abstract float distanceToGoal(MonoBehaviour owner, MGoal goal);
 
     public abstract void execute(MonoBehaviour owner);
 

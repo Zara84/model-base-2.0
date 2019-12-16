@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestGoal : Goal
+public class TestGoal : MGoal
 {
     public override float distance(MonoBehaviour owner, MAction action)
     {

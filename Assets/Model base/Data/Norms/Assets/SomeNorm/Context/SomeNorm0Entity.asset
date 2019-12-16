@@ -26,7 +26,28 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[IComponent, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 1|VesselComponents+Crew, Assembly-CSharp
+    - Name: crewNumber
+      Entry: 3
       Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 2|VesselComponents+Gear, Assembly-CSharp
+    - Name: name
+      Entry: 1
+      Data: 
+    - Name: targetSpecies
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 

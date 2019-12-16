@@ -11,7 +11,7 @@ public class BlaAction: MAction
         return false;
     }
 
-    public override float distanceToGoal(MonoBehaviour owner, Goal goal)
+    public override float distanceToGoal(MonoBehaviour owner, MGoal goal)
     {
         return goal.distance(owner, this);
     }

@@ -13,8 +13,6 @@ namespace XNodeEditor {
 		}
 
 		protected override void DrawPropertyLayout(GUIContent label) {
-
-            
 			Node node = Property.Tree.WeakTargets[0] as Node;
 			NodePort port = node.GetInputPort(Property.Name);
 

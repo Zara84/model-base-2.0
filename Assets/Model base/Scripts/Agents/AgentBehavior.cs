@@ -9,7 +9,7 @@ public class AgentBehavior : SerializedMonoBehaviour
 
     public List<MAction> actions = new List<MAction>();
 
-    public List<Norm> norms = new List<Norm>();
+    public List<MNorm> norms = new List<MNorm>();
 
     public List<GameObject> vessels = new List<GameObject>();
 

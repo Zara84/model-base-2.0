@@ -9,7 +9,7 @@ namespace XNodeEditor {
     public partial class NodeEditorWindow {
         public enum NodeActivity { Idle, HoldNode, DragNode, HoldGrid, DragGrid }
         public static NodeActivity currentActivity = NodeActivity.Idle;
-        public static bool isPanning { get; set; }
+        public static bool isPanning { get; private set; }
         public static Vector2[] dragOffset;
 
         public static XNode.Node[] copyBuffer = null;
@@ -18,7 +18,6 @@ namespace XNodeEditor {
         private bool IsHoveringPort { get { return hoveredPort != null; } }
         private bool IsHoveringNode { get { return hoveredNode != null; } }
         private bool IsHoveringReroute { get { return hoveredReroute.port != null; } }
-        [HideInInspector]
         public XNode.Node hoveredNode = null;
         [NonSerialized] public XNode.NodePort hoveredPort = null;
         [NonSerialized] private XNode.NodePort draggedOutput = null;
@@ -32,8 +31,7 @@ namespace XNodeEditor {
         private RerouteReference[] preBoxSelectionReroute;
         private Rect selectionBox;
         private bool isDoubleClick = false;
-        [HideInInspector]
-        public Vector2 lastMousePosition;
+        private Vector2 lastMousePosition;
 
         public void Controls() {
             wantsMouseMove = true;
@@ -173,7 +171,7 @@ namespace XNodeEditor {
                             // Cache double click state, but only act on it in MouseUp - Except ClickCount only works in mouseDown.
                             isDoubleClick = (e.clickCount == 2);
 
-                          //  e.Use();
+                           // e.Use();
                             currentActivity = NodeActivity.HoldNode;
                         } else if (IsHoveringReroute) {
                             // If reroute isn't selected
@@ -189,7 +187,7 @@ namespace XNodeEditor {
                             }
                             // Deselect
                             else if (e.control || e.shift) selectedReroutes.Remove(hoveredReroute);
-                            e.Use();
+                          //  e.Use();
                             currentActivity = NodeActivity.HoldNode;
                         }
                         // If mousedown on grid background, deselect all

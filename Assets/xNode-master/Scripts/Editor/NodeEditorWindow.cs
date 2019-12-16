@@ -4,19 +4,18 @@ using UnityEditor.Callbacks;
 using UnityEngine;
 using System;
 using Object = UnityEngine.Object;
-using Sirenix.OdinInspector.Editor;
-using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 
 namespace XNodeEditor {
     [InitializeOnLoad]
-    public partial class NodeEditorWindow : OdinEditorWindow {
+    public partial class NodeEditorWindow : EditorWindow {
         public static NodeEditorWindow current;
 
         /// <summary> Stores node positions for all nodePorts. </summary>
         public Dictionary<XNode.NodePort, Rect> portConnectionPoints { get { return _portConnectionPoints; } }
         private Dictionary<XNode.NodePort, Rect> _portConnectionPoints = new Dictionary<XNode.NodePort, Rect>();
-        [SerializeField, HideInInspector] private NodePortReference[] _references = new NodePortReference[0];
-        [SerializeField, HideInInspector] private Rect[] _rects = new Rect[0];
+        [NonSerialized, OdinSerialize] private NodePortReference[] _references = new NodePortReference[0];
+        [NonSerialized, OdinSerialize] private Rect[] _rects = new Rect[0];
 
         private Func<bool> isDocked {
             get {
@@ -27,8 +26,8 @@ namespace XNodeEditor {
         private Func<bool> _isDocked;
 
         [System.Serializable] private class NodePortReference {
-            [SerializeField] private XNode.Node _node;
-            [SerializeField] private string _name;
+            [NonSerialized, OdinSerialize] private XNode.Node _node;
+            [NonSerialized, OdinSerialize] private string _name;
 
             public NodePortReference(XNode.NodePort nodePort) {
                 _node = nodePort.node;
@@ -70,8 +69,6 @@ namespace XNodeEditor {
 
         public Dictionary<XNode.Node, Vector2> nodeSizes { get { return _nodeSizes; } }
         private Dictionary<XNode.Node, Vector2> _nodeSizes = new Dictionary<XNode.Node, Vector2>();
-
-        [HideInInspector]
         public XNode.NodeGraph graph;
         public Vector2 panOffset { get { return _panOffset; } set { _panOffset = value; Repaint(); } }
         private Vector2 _panOffset;
@@ -206,28 +203,5 @@ namespace XNodeEditor {
                 windows[i].Repaint();
             }
         }
-
-        [Button(ButtonStyle.FoldoutButton)]
-        public void something(List<int> list)
-        {
-            Debug.Log("something");
-           // return a+b;
-        }
-
-        /*  [OnInspectorGUI]
-          public void testAttr()
-          {
-              Debug.Log("I don't think this goes here");
-              GUILayout.Label("Not too stupid");
-          }
-
-          [OnInspectorGUI]
-          public void tes1tAttr()
-          {
-              Debug.Log("I think think this goes here");
-              GUILayout.Label("Not too stupid");
-          }*/
     }
-
-   
 }

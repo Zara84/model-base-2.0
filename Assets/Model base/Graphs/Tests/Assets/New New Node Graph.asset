@@ -12,757 +12,1075 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a772738d430e7c49a77e94e9c38de54, type: 3}
   m_Name: New New Node Graph
   m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 114932835028012490}
+  - {fileID: 114152009306393652}
+  - {fileID: 114198432305898164}
+--- !u!114 &114152009306393652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa281ec6204fb743848784d55e64d07, type: 3}
+  m_Name: Act
+  m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    - {fileID: 114152009306393652}
+    - {fileID: 114198432305898164}
+    - {fileID: 11400000, guid: 3e9dfb0df54a0fe41be8a589bbba17e8, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
-    SerializationNodes: []
-  nodes:
-  - {fileID: 114795956796472266}
-  - {fileID: 114661711334287832}
-  - {fileID: 114280269339313850}
-  isDirty: 1
---- !u!114 &114280269339313850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Act
-  m_EditorClassIdentifier: Assembly-CSharp::ActNode
-  graph: {fileID: 11400000}
-  position: {x: -296, y: -88}
-  ports:
-    keys:
-    - dynamicInput_0
-    - dynamicInput_1
-    - dynamicInput_2
-    - dynamicInput_3
-    - dynamicInput_4
-    - dynamicInput_5
-    - dynamicInput_6
-    - dynamicInput_7
-    - dynamicInput_8
-    - dynamicInput_9
-    - dynamicInput_10
-    - dynamicInput_11
-    - dynamicInput_12
-    - dynamicInput_13
-    - dynamicInput_14
-    - dynamicInput_15
-    - dynamicInput_16
-    - dynamicInput_17
-    - dynamicInput_18
-    - dynamicInput_19
-    - dynamicInput_20
-    - dynamicInput_21
-    - dynamicInput_22
-    - dynamicInput_23
-    - dynamicInput_24
-    - dynamicInput_25
-    - dynamicInput_26
-    - dynamicInput_27
-    - dynamicInput_28
-    - dynamicInput_29
-    - dynamicInput_30
-    - dynamicInput_31
-    - dynamicInput_32
-    - dynamicInput_33
-    values:
-    - _fieldName: dynamicInput_0
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_1
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_2
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_3
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_4
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_5
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_6
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_7
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_8
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_1
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_2
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_9
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_10
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_1
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_2
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_11
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_12
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_0
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_2
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_13
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_4
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_5
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_14
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_15
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_0
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_2
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_4
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_5
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_16
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_1
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_2
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_0
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_4
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_5
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_17
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_9
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_18
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_19
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_9
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_20
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_21
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_7
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_9
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_22
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_11
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_23
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_24
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_7
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_9
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_11
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_25
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_9
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_7
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_11
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_26
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_27
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_28
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_29
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_30
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_31
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_32
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_33
-      _node: {fileID: 114280269339313850}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  inFilter: []
-  outFilter: []
-  nodeInFilter: {fileID: 0}
-  nodeOutFilter: {fileID: 0}
-  sourceAction: {fileID: 11400000, guid: afc7c22abaa0d734a8fae828432c5f0f, type: 2}
---- !u!114 &114661711334287832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: Act
-  m_EditorClassIdentifier: Assembly-CSharp::ActNode
-  graph: {fileID: 11400000}
-  position: {x: -296, y: -344}
-  ports:
-    keys:
-    - dynamicInput_0
-    - dynamicInput_1
-    - dynamicInput_2
-    - dynamicInput_3
-    - dynamicInput_4
-    - dynamicInput_5
-    - dynamicInput_6
-    - dynamicInput_7
-    - dynamicInput_8
-    - dynamicInput_9
-    - dynamicInput_10
-    - dynamicInput_11
-    - dynamicInput_12
-    - dynamicInput_13
-    - dynamicInput_14
-    - dynamicInput_15
-    values:
-    - _fieldName: dynamicInput_0
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_1
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_2
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_3
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_4
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_3
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_5
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_5
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_6
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_3
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_5
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_7
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_3
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_5
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_8
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_10
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_9
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_10
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_10
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_11
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_10
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114795956796472266}
-        reroutePoints: []
-      _direction: 1
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_12
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_13
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_14
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_15
-      _node: {fileID: 114661711334287832}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  inFilter: []
-  outFilter: []
-  nodeInFilter: {fileID: 0}
-  nodeOutFilter: {fileID: 0}
-  sourceAction: {fileID: 11400000, guid: 3e9dfb0df54a0fe41be8a589bbba17e8, type: 2}
---- !u!114 &114795956796472266
+    SerializationNodes:
+    - Name: graph
+      Entry: 10
+      Data: 0
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -248
+    - Name: 
+      Entry: 4
+      Data: -8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ports
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[XNode.NodePort,
+        XNode]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 8
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: $v
+      Entry: 7
+      Data: 2|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: $v
+      Entry: 7
+      Data: 4|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: $v
+      Entry: 7
+      Data: 6|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: $v
+      Entry: 7
+      Data: 8|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: $v
+      Entry: 7
+      Data: 10|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 12|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: $v
+      Entry: 7
+      Data: 18|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: $v
+      Entry: 7
+      Data: 20|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 22|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: $v
+      Entry: 7
+      Data: 28|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 30|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeInFilter
+      Entry: 7
+      Data: 36|NodeFilter, Assembly-CSharp
+    - Name: wtf
+      Entry: 3
+      Data: 0
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: filter
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 38|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 36
+    - Name: components
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 40|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 41|GeneralComponents+Cost, Assembly-CSharp
+    - Name: cost
+      Entry: 4
+      Data: 100
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 38
+    - Name: tree
+      Entry: 7
+      Data: 42|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Cost,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 2
+    - Name: style
+      Entry: 7
+      Data: 43|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 45|GeneralComponents+MaintenanceCost, Assembly-CSharp
+    - Name: cost
+      Entry: 4
+      Data: 50
+    - Name: period
+      Entry: 3
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 38
+    - Name: tree
+      Entry: 7
+      Data: 46|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+MaintenanceCost,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 4
+    - Name: style
+      Entry: 7
+      Data: 47|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 6
+    - Name: style
+      Entry: 7
+      Data: 48|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 8
+    - Name: style
+      Entry: 7
+      Data: 49|NodeFilterStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeOutFilter
+      Entry: 7
+      Data: 50|NodeFilter, Assembly-CSharp
+    - Name: wtf
+      Entry: 3
+      Data: 0
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: filter
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 52|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 50
+    - Name: components
+      Entry: 7
+      Data: 53|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 54|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 55|GeneralComponents+Position, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 52
+    - Name: tree
+      Entry: 7
+      Data: 56|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Position,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 10
+    - Name: style
+      Entry: 7
+      Data: 57|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 59|GeneralComponents+Loan, Assembly-CSharp
+    - Name: size
+      Entry: 4
+      Data: 0
+    - Name: repaymentRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 52
+    - Name: tree
+      Entry: 7
+      Data: 60|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Loan,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 18
+    - Name: style
+      Entry: 7
+      Data: 61|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 20
+    - Name: style
+      Entry: 7
+      Data: 62|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 1
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 28
+    - Name: style
+      Entry: 7
+      Data: 63|NodeFilterStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: sourceAction
+      Entry: 10
+      Data: 3
+    - Name: actionType
+      Entry: 7
+      Data: 64|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: TestAction, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+  garbage: 
+--- !u!114 &114198432305898164
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -774,342 +1092,3786 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d55d6d3296dc2de4ca9b8ae3ac447832, type: 3}
   m_Name: Goal
   m_EditorClassIdentifier: 
-  graph: {fileID: 11400000}
-  position: {x: 136, y: -184}
-  ports:
-    keys:
-    - dynamicInput_0
-    - dynamicInput_1
-    - dynamicInput_2
-    - dynamicInput_3
-    - dynamicInput_4
-    - dynamicInput_5
-    - dynamicInput_6
-    - dynamicInput_7
-    - dynamicInput_8
-    - dynamicInput_9
-    - dynamicInput_10
-    - dynamicInput_11
-    - dynamicInput_12
-    - dynamicInput_13
-    values:
-    - _fieldName: dynamicInput_0
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_12
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_15
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_16
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_1
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_10
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_16
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_2
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_10
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_16
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_15
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_3
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_4
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_7
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_4
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_13
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_15
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_16
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_5
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_4
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_7
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_15
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_16
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_6
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_4
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_6
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_7
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_8
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_10
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_16
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_12
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_15
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_13
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_7
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_21
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_24
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_25
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_8
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_17
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_19
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_25
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_9
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_17
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_19
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_25
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_21
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_24
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_10
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_10
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_11
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_11
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_22
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_24
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_25
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_12
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_10
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_11
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_22
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_24
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_25
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-    - _fieldName: dynamicInput_13
-      _node: {fileID: 114795956796472266}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: dynamicInput_8
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_10
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_11
-        node: {fileID: 114661711334287832}
-        reroutePoints: []
-      - fieldName: dynamicInput_17
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_19
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_25
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_21
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_24
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      - fieldName: dynamicInput_22
-        node: {fileID: 114280269339313850}
-        reroutePoints: []
-      _direction: 0
-      _connectionType: 0
-      _typeConstraint: 0
-      _dynamic: 1
-  filter: {fileID: 0}
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    - {fileID: 114198432305898164}
+    - {fileID: 114932835028012490}
+    - {fileID: 114152009306393652}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: graph
+      Entry: 10
+      Data: 0
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -8
+    - Name: 
+      Entry: 4
+      Data: -136
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ports
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[XNode.NodePort,
+        XNode]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: $v
+      Entry: 7
+      Data: 2|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 4|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 6|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 8|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: $v
+      Entry: 7
+      Data: 10|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 12|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 14|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 16|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: $v
+      Entry: 7
+      Data: 18|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 20|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 26|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 28|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: $v
+      Entry: 7
+      Data: 30|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 32|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 36|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: $v
+      Entry: 7
+      Data: 38|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 40|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: $v
+      Entry: 7
+      Data: 46|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 48|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 49|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 53|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 54|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 55|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 56|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 58|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: $v
+      Entry: 7
+      Data: 60|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 61|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 9
+    - Name: 
+      Entry: 7
+      Data: 62|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 63|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 67|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 68|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 69|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 70|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 71|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 72|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 73|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 74|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 75|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 76|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 77|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 78|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: node
+      Entry: 10
+      Data: 3
+    - Name: reroutePoints
+      Entry: 7
+      Data: 79|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: filter
+      Entry: 7
+      Data: 80|NodeFilter, Assembly-CSharp
+    - Name: wtf
+      Entry: 3
+      Data: 0
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: filter
+      Entry: 7
+      Data: 81|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 82|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 80
+    - Name: components
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 84|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 85|GeneralComponents+Income, Assembly-CSharp
+    - Name: income
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 82
+    - Name: tree
+      Entry: 7
+      Data: 86|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Income,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 2
+    - Name: style
+      Entry: 7
+      Data: 87|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 89|GeneralComponents+Efficiency, Assembly-CSharp
+    - Name: efficiency
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 82
+    - Name: tree
+      Entry: 7
+      Data: 90|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Efficiency,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 10
+    - Name: style
+      Entry: 7
+      Data: 91|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 18
+    - Name: style
+      Entry: 7
+      Data: 92|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 93|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 80
+    - Name: components
+      Entry: 7
+      Data: 94|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 95|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 96|GeneralComponents+Position, Assembly-CSharp
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector3, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 93
+    - Name: tree
+      Entry: 7
+      Data: 97|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Position,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 30
+    - Name: style
+      Entry: 7
+      Data: 98|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 99|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 100|VesselComponents+Catch, Assembly-CSharp
+    - Name: size
+      Entry: 4
+      Data: 0
+    - Name: species
+      Entry: 1
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 93
+    - Name: tree
+      Entry: 7
+      Data: 101|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+Catch,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 38
+    - Name: style
+      Entry: 7
+      Data: 102|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 46
+    - Name: style
+      Entry: 7
+      Data: 103|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: true
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 60
+    - Name: style
+      Entry: 7
+      Data: 104|NodeFilterStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: goalType
+      Entry: 7
+      Data: 105|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: SomeGoal, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
   sourceGoal: {fileID: 11400000, guid: b4366cc5aaec9d04a921a91fcc88c3bf, type: 2}
+--- !u!114 &114932835028012490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa281ec6204fb743848784d55e64d07, type: 3}
+  m_Name: Act
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000}
+    - {fileID: 114932835028012490}
+    - {fileID: 114198432305898164}
+    - {fileID: 11400000, guid: afc7c22abaa0d734a8fae828432c5f0f, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: graph
+      Entry: 10
+      Data: 0
+    - Name: position
+      Entry: 7
+      Data: UnityEngine.Vector2, UnityEngine.CoreModule
+    - Name: 
+      Entry: 4
+      Data: -248
+    - Name: 
+      Entry: 4
+      Data: -280
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: ports
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[XNode.NodePort,
+        XNode]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
+        mscorlib]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 17
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: $v
+      Entry: 7
+      Data: 2|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: $v
+      Entry: 7
+      Data: 4|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: $v
+      Entry: 7
+      Data: 6|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: $v
+      Entry: 7
+      Data: 8|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_3
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: $v
+      Entry: 7
+      Data: 10|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 11|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: $v
+      Entry: 7
+      Data: 12|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: $v
+      Entry: 7
+      Data: 14|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 15|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: $v
+      Entry: 7
+      Data: 16|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 17|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: $v
+      Entry: 7
+      Data: 18|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 19|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 20|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 22|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 24|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_9
+    - Name: $v
+      Entry: 7
+      Data: 26|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_9
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 27|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: $v
+      Entry: 7
+      Data: 28|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 30|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 32|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 33|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 34|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 35|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_11
+    - Name: $v
+      Entry: 7
+      Data: 36|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_11
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: $v
+      Entry: 7
+      Data: 38|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 40|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 41|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 42|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 43|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 44|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 45|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: $v
+      Entry: 7
+      Data: 46|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 48|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 49|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 50|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 52|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 53|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_14
+    - Name: $v
+      Entry: 7
+      Data: 54|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_14
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 55|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: $v
+      Entry: 7
+      Data: 56|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 5
+    - Name: 
+      Entry: 7
+      Data: 58|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 61|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 62|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 63|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 64|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 66|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 67|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: $v
+      Entry: 7
+      Data: 68|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_16
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 69|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 6
+    - Name: 
+      Entry: 7
+      Data: 70|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_1
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 71|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 72|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_2
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 73|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 74|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 75|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 76|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_0
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 77|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 78|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 79|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 80|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 81|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeInFilter
+      Entry: 7
+      Data: 82|NodeFilter, Assembly-CSharp
+    - Name: wtf
+      Entry: 3
+      Data: 0
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: filter
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 84|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 82
+    - Name: components
+      Entry: 7
+      Data: 85|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 86|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 87|VesselComponents+BaseQuota, Assembly-CSharp
+    - Name: quota
+      Entry: 4
+      Data: 0
+    - Name: species
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 84
+    - Name: tree
+      Entry: 7
+      Data: 88|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+BaseQuota,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 2
+    - Name: style
+      Entry: 7
+      Data: 89|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 91|VesselComponents+Gear, Assembly-CSharp
+    - Name: name
+      Entry: 6
+      Data: 
+    - Name: targetSpecies
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 84
+    - Name: tree
+      Entry: 7
+      Data: 92|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+Gear,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 4
+    - Name: style
+      Entry: 7
+      Data: 93|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 94|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 95|GeneralComponents+Loan, Assembly-CSharp
+    - Name: size
+      Entry: 4
+      Data: 0
+    - Name: repaymentRate
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 84
+    - Name: tree
+      Entry: 7
+      Data: 96|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Loan,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 6
+    - Name: style
+      Entry: 7
+      Data: 97|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 98|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 99|GeneralComponents+Price, Assembly-CSharp
+    - Name: price
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 84
+    - Name: tree
+      Entry: 7
+      Data: 100|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Price,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 8
+    - Name: style
+      Entry: 7
+      Data: 101|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 10
+    - Name: style
+      Entry: 7
+      Data: 102|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_4
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 103|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 82
+    - Name: components
+      Entry: 7
+      Data: 104|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 105|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 106|VesselComponents+BaseQuota, Assembly-CSharp
+    - Name: quota
+      Entry: 4
+      Data: 0
+    - Name: species
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 103
+    - Name: tree
+      Entry: 7
+      Data: 107|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+BaseQuota,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 12
+    - Name: style
+      Entry: 7
+      Data: 108|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 14
+    - Name: style
+      Entry: 7
+      Data: 109|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_6
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 16
+    - Name: style
+      Entry: 7
+      Data: 110|NodeFilterStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: nodeOutFilter
+      Entry: 7
+      Data: 111|NodeFilter, Assembly-CSharp
+    - Name: wtf
+      Entry: 3
+      Data: 0
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: filter
+      Entry: 7
+      Data: 112|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 113|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 111
+    - Name: components
+      Entry: 7
+      Data: 114|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 115|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 116|GeneralComponents+Efficiency, Assembly-CSharp
+    - Name: efficiency
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 113
+    - Name: tree
+      Entry: 7
+      Data: 117|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Efficiency,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 18
+    - Name: style
+      Entry: 7
+      Data: 118|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 119|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 120|GeneralComponents+Cost, Assembly-CSharp
+    - Name: cost
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 113
+    - Name: tree
+      Entry: 7
+      Data: 121|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Cost,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 26
+    - Name: style
+      Entry: 7
+      Data: 122|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 28
+    - Name: style
+      Entry: 7
+      Data: 123|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 1
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 124|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 111
+    - Name: components
+      Entry: 7
+      Data: 125|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 4
+    - Name: 
+      Entry: 7
+      Data: 126|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 127|GeneralComponents+Inventory, Assembly-CSharp
+    - Name: list
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 124
+    - Name: tree
+      Entry: 7
+      Data: 128|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Inventory,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 36
+    - Name: style
+      Entry: 7
+      Data: 129|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 130|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 131|GeneralComponents+Income, Assembly-CSharp
+    - Name: income
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 124
+    - Name: tree
+      Entry: 7
+      Data: 132|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Income,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 38
+    - Name: style
+      Entry: 7
+      Data: 133|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 134|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 135|VesselComponents+Catch, Assembly-CSharp
+    - Name: size
+      Entry: 4
+      Data: 0
+    - Name: species
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 124
+    - Name: tree
+      Entry: 7
+      Data: 136|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+Catch,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 46
+    - Name: style
+      Entry: 7
+      Data: 137|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 138|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 139|GeneralComponents+MaintenanceCost, Assembly-CSharp
+    - Name: cost
+      Entry: 4
+      Data: 0
+    - Name: period
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 124
+    - Name: tree
+      Entry: 7
+      Data: 140|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+MaintenanceCost,
+        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 54
+    - Name: style
+      Entry: 7
+      Data: 141|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 56
+    - Name: style
+      Entry: 7
+      Data: 142|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 1
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_15
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 68
+    - Name: style
+      Entry: 7
+      Data: 143|NodeFilterStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: sourceAction
+      Entry: 10
+      Data: 3
+    - Name: actionType
+      Entry: 7
+      Data: 144|System.RuntimeType, mscorlib
+    - Name: 
+      Entry: 1
+      Data: SomeAction, Assembly-CSharp
+    - Name: 
+      Entry: 8
+      Data: 
+  garbage: 

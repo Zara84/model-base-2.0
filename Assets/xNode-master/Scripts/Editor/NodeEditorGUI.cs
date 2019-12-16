@@ -8,7 +8,6 @@ using XNodeEditor.Internal;
 namespace XNodeEditor {
     /// <summary> Contains GUI methods </summary>
     public partial class NodeEditorWindow {
-        [HideInInspector]
         public NodeGraphEditor graphEditor;
         private List<UnityEngine.Object> selectionCache;
         private List<XNode.Node> culledNodes;
@@ -18,8 +17,6 @@ namespace XNodeEditor {
         public event Action onLateGUI;
 
         private void OnGUI() {
-
-           // base.OnGUI();
             Event e = Event.current;
             Matrix4x4 m = GUI.matrix;
             if (graph == null) return;
@@ -41,7 +38,6 @@ namespace XNodeEditor {
             }
 
             GUI.matrix = m;
-            base.OnGUI();
         }
 
         public static void BeginZoomed(Rect rect, float zoom, float topPadding) {

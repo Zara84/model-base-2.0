@@ -17,19 +17,34 @@ public class GoalNodeEditor : SimpleNodeEditor
     {
         if (node == null)
             node = target as GoalNode;
+        if(node.sourceGoal!=null)
+            GUILayout.Label(node.sourceGoal.GetType().ToString(), NodeEditorResources.styles.nodeHeader, GUILayout.Height(30));
+        else
+        {
+            inspectStuff.Show();
+            OdinEditorWindow.InspectObject(inspectStuff, node);
+        }
 
-        GUILayout.Label(node.sourceGoal.GetType().ToString(), NodeEditorResources.styles.nodeHeader, GUILayout.Height(30));
+        if (node == null)
+            node = target as GoalNode;
+
+        if (node.filter == null)
+        {
+            node.initNode();
+            window.Repaint();
+        }
+       // Debug.Log("in the heeeead");
     }
 
     public override void OnBodyGUI()
     {
         base.OnBodyGUI();
        
-
-        if (node == null)
-            node = target as GoalNode;
-
-        drawFilter(node.filter);
+        if (node.filter != null)
+        {
+            drawFilter(node.filter);
+        }
+        
 
         Rect rect = EditorGUILayout.GetControlRect();
 
@@ -37,7 +52,7 @@ public class GoalNodeEditor : SimpleNodeEditor
         {
             // OdinEditorWindow.InspectObject(node.filter);
             connectNode();
-            Debug.Log("connected");
+         //   Debug.Log("connected");
         }
 
       //  node.filter.port.s
@@ -54,7 +69,7 @@ public class GoalNodeEditor : SimpleNodeEditor
                 goalComponents.Add(c);
             }
         }
-        Debug.Log("Component in goal " + goalComponents.Count);
+      //  Debug.Log("Component in goal " + goalComponents.Count);
 
         List<NodeIComponent> nodeComponents = new List<NodeIComponent>();
         foreach(NodeMEntity e in node.filter.filter)
@@ -64,7 +79,7 @@ public class GoalNodeEditor : SimpleNodeEditor
                 nodeComponents.Add(c);
             }
         }
-        Debug.Log("Components in node " + nodeComponents.Count);
+      //  Debug.Log("Components in node " + nodeComponents.Count);
 
 
         foreach(XNode.Node n in node.graph.nodes)
@@ -81,7 +96,7 @@ public class GoalNodeEditor : SimpleNodeEditor
                         {
                             if(comp.component.GetType() == c.component.GetType())
                             {
-                                Debug.Log("a match");
+                             //   Debug.Log("a match");
                                 if(!comp.port.IsConnectedTo(c.port))
                                 {
                                     comp.port.Connect(c.port);

@@ -12,17 +12,33 @@ using Sirenix.Utilities;
 [CustomNodeEditor(typeof(ActNode))]
 public class ActNodeEditor : SimpleNodeEditor
 {
-    ActNode node;
-
-    public Vector2 nodeposition;
-
+    public ActNode node;
     
     public override void OnHeaderGUI()
     {
         if (node == null)
             node = target as ActNode;
 
-        GUILayout.Label(node.sourceAction.GetType().ToString(), NodeEditorResources.styles.nodeHeader, GUILayout.Height(30));
+        if (node.sourceAction != null)
+        {
+            GUILayout.Label(node.sourceAction.GetType().ToString(), NodeEditorResources.styles.nodeHeader, GUILayout.Height(30));
+        }
+        else
+        {
+            inspectStuff.Show();
+            OdinEditorWindow.InspectObject(inspectStuff, node);
+            //window.Repaint();
+        }
+
+        if (node == null)
+            node = target as ActNode;
+
+        if (node.nodeInFilter == null || node.nodeOutFilter==null)
+        {
+            node.initNode();
+            window.Repaint();
+        }
+
     }
 
     public override void OnBodyGUI()
@@ -30,30 +46,18 @@ public class ActNodeEditor : SimpleNodeEditor
         base.OnBodyGUI();
         //nodeposition = NodeEditorWindow.current.lastMousePosition;
 
-        if (node == null)
-            node = target as ActNode;
-
-        drawFilter(node.nodeInFilter);
-
-        SirenixEditorGUI.BeginBox();
-      
-        SirenixEditorGUI.EndBox();
-       
-        drawFilter(node.nodeOutFilter);
-    }
-
-    
-    
-    public void resize(Rect rect)
-    {
-        while (GetWidth() - rect.width < 40)
+        if (node.nodeInFilter != null)
         {
-            resizeWidth(1);
-            //yield return null;
-            this.window.Repaint();
+            window.Repaint();
+            drawFilter(node.nodeInFilter);
         }
-    }
-
-    
+        
+        if (node.nodeOutFilter != null)
+        {
+            window.Repaint();
+            drawFilter(node.nodeOutFilter);
+        }
+        
+    }  
     
 }

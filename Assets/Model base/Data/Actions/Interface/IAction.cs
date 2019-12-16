@@ -9,7 +9,7 @@ public interface IAction
 
      bool isDoable(MonoBehaviour owner);
 
-     float distanceToGoal(MonoBehaviour owner, Goal goal);
+     float distanceToGoal(MonoBehaviour owner, MGoal goal);
 
      void execute(MonoBehaviour owner);
 

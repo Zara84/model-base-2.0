@@ -15,7 +15,7 @@ namespace XNodeEditor {
     public class NodeEditor : XNodeEditor.Internal.NodeEditorBase<NodeEditor, NodeEditor.CustomNodeEditorAttribute, XNode.Node> {
 
         private readonly Color DEFAULTCOLOR = new Color32(90, 97, 105, 255);
-        public Color nodecolor;
+
         /// <summary> Fires every whenever a node was modified through the editor </summary>
         public static Action<XNode.Node> onUpdateNode;
         public readonly static Dictionary<XNode.NodePort, Vector2> portPositions = new Dictionary<XNode.NodePort, Vector2>();

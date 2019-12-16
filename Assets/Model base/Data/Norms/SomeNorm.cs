@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-public class SomeNorm: Norm
+public class SomeNorm: MNorm
 {
     public override void execute(MonoBehaviour owner)
     {

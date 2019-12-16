@@ -121,12 +121,16 @@ namespace XNodeEditor {
             Debug.Log("No OnDropItems override defined for " + GetType());
         }
 
+        
         /// <summary> Create a node and save it in the graph asset </summary>
         public virtual XNode.Node CreateNode(Type type, Vector2 position) {
             XNode.Node node = target.AddNode(type);
             node.position = position;
             if (node.name == null || node.name.Trim() == "") node.name = NodeEditorUtilities.NodeDefaultName(type);
+          //  AssetDatabase.CreateAsset(node, "Assets/nodeAsset.asset");
+            
             AssetDatabase.AddObjectToAsset(node, target);
+         //   AssetDatabase.CreateAsset(node, "Assets/nodeAsset.asset");
             if (NodeEditorPreferences.GetSettings().autoSave) AssetDatabase.SaveAssets();
             NodeEditorWindow.RepaintAll();
             return node;

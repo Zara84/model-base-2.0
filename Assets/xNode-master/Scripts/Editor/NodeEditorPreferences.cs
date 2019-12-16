@@ -218,7 +218,7 @@ namespace XNodeEditor {
         /// <summary> Return color based on type </summary>
         public static Color GetTypeColor(System.Type type) {
             VerifyLoaded();
-            if (type == null) return Color.grey;
+            if (type == null) return Color.gray;
             Color col;
             if (!typeColors.TryGetValue(type, out col)) {
                 string typeName = type.PrettyName();

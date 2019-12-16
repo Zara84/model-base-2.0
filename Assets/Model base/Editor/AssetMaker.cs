@@ -22,7 +22,7 @@ public class AssetMaker : OdinEditorWindow
     [Button("New norm")]
     public void makeNorm()
     {
-        System.Reflection.Assembly assembly = typeof(Norm).Assembly;
+        System.Reflection.Assembly assembly = typeof(MNorm).Assembly;
         string name = Selection.activeObject.name;
         Type type = assembly.GetType(name);
         //Debug.Log(type);
@@ -31,7 +31,7 @@ public class AssetMaker : OdinEditorWindow
         var asset = CreateInstance(name);
         Convert.ChangeType(asset, type);
 
-        if (asset is Norm)
+        if (asset is MNorm)
         {
             isNorm = true;
             AssetDatabase.CreateAsset(asset, "Assets/Model base/Data/Norms/Assets/" + name + ".asset");
@@ -85,7 +85,7 @@ public class AssetMaker : OdinEditorWindow
         var asset = CreateInstance(name);
         Convert.ChangeType(asset, type);
 
-        if (asset is Goal)
+        if (asset is MGoal)
         {
             //  isNorm = true;
             AssetDatabase.CreateAsset(asset, "Assets/Model base/Data/Goals/Assets/" + name + ".asset");
