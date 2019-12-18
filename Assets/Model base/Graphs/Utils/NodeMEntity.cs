@@ -17,11 +17,12 @@ public class NodeMEntity //: SerializedScriptableObject
      public PortOrientation orientation;
      public mEntity entity;
      public string nodeName;
+    public string entityName;
 
     public NodeMEntity(mEntity entity, Node node, PortOrientation orientation)
     {
         this.orientation = orientation;
-
+        entityName = entity.name;
         parent = node;
 
         foreach(IComponent c in entity.components)
@@ -52,7 +53,7 @@ public class NodeMEntity //: SerializedScriptableObject
        // port = CreateInstance("NodePort") as NodePort;
         this.orientation = orientation;
         this.entity = entity;
-
+        entityName = entity.name;
         parent = node;
         Debug.Log("entity components: " + entity.components.Count);
         foreach (IComponent c in entity.components)

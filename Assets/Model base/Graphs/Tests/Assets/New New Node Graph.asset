@@ -13,10 +13,9 @@ MonoBehaviour:
   m_Name: New New Node Graph
   m_EditorClassIdentifier: 
   nodes:
-  - {fileID: 114932835028012490}
-  - {fileID: 114152009306393652}
-  - {fileID: 114198432305898164}
---- !u!114 &114152009306393652
+  - {fileID: 114993805213327624}
+  - {fileID: 114050338958286208}
+--- !u!114 &114050338958286208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25,17 +24,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caa281ec6204fb743848784d55e64d07, type: 3}
-  m_Name: Act
+  m_Script: {fileID: 11500000, guid: d55d6d3296dc2de4ca9b8ae3ac447832, type: 3}
+  m_Name: Goal
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000}
-    - {fileID: 114152009306393652}
-    - {fileID: 114198432305898164}
-    - {fileID: 11400000, guid: 3e9dfb0df54a0fe41be8a589bbba17e8, type: 2}
+    - {fileID: 114050338958286208}
+    - {fileID: 114993805213327624}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -49,10 +47,10 @@ MonoBehaviour:
       Data: UnityEngine.Vector2, UnityEngine.CoreModule
     - Name: 
       Entry: 4
-      Data: -248
+      Data: 248
     - Name: 
       Entry: 4
-      Data: -8
+      Data: -104
     - Name: 
       Entry: 8
       Data: 
@@ -69,7 +67,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 8
+      Data: 14
     - Name: 
       Entry: 7
       Data: 
@@ -290,22 +288,6 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 12|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_3
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 13|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
       Data: 0
     - Name: 
       Entry: 13
@@ -313,15 +295,55 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: $v
+      Entry: 7
+      Data: 12|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 13|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
       Data: 14|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_5
+      Data: dynamicInput_15
     - Name: node
       Entry: 10
       Data: 2
@@ -346,7 +368,7 @@ MonoBehaviour:
       Data: 16|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_17
     - Name: node
       Entry: 10
       Data: 2
@@ -367,50 +389,17 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 1
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
       Entry: 7
-      Data: 
-    - Name: $k
+      Data: 18|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
       Entry: 1
-      Data: dynamicInput_5
-    - Name: $v
-      Entry: 7
-      Data: 18|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_5
-    - Name: _node
+      Data: dynamicInput_22
+    - Name: node
       Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
+      Data: 2
+    - Name: reroutePoints
       Entry: 7
-      Data: 19|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 19|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -421,9 +410,18 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: _direction
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: _connectionType
       Entry: 3
       Data: 0
@@ -463,1031 +461,111 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: $v
+      Entry: 7
+      Data: 22|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_7
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: $v
+      Entry: 7
+      Data: 24|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
       Data: 3
-    - Name: 
-      Entry: 7
-      Data: 22|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_3
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 23|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 24|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_5
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 25|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 7
       Data: 26|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_6
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 27|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 1
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: dynamicInput_7
-    - Name: $v
-      Entry: 7
-      Data: 28|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_7
-    - Name: _node
-      Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
-      Entry: 7
-      Data: 29|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 30|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_3
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 31|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 32|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_5
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 33|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 34|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_6
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 35|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 1
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: nodeInFilter
-      Entry: 7
-      Data: 36|NodeFilter, Assembly-CSharp
-    - Name: wtf
-      Entry: 3
-      Data: 0
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: filter
-      Entry: 7
-      Data: 37|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 38|NodeMEntity, Assembly-CSharp
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentFilter
-      Entry: 9
-      Data: 36
-    - Name: components
-      Entry: 7
-      Data: 39|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 40|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 41|GeneralComponents+Cost, Assembly-CSharp
-    - Name: cost
-      Entry: 4
-      Data: 100
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 38
-    - Name: tree
-      Entry: 7
-      Data: 42|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Cost,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 2
-    - Name: style
-      Entry: 7
-      Data: 43|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 44|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 45|GeneralComponents+MaintenanceCost, Assembly-CSharp
-    - Name: cost
-      Entry: 4
-      Data: 50
-    - Name: period
-      Entry: 3
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 38
-    - Name: tree
-      Entry: 7
-      Data: 46|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+MaintenanceCost,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 4
-    - Name: style
-      Entry: 7
-      Data: 47|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 6
-    - Name: style
-      Entry: 7
-      Data: 48|NodeMEntityStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: orientation
-      Entry: 3
-      Data: 0
-    - Name: entity
-      Entry: 6
-      Data: 
-    - Name: nodeName
-      Entry: 1
-      Data: dynamicInput_2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 8
-    - Name: style
-      Entry: 7
-      Data: 49|NodeFilterStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: orientation
-      Entry: 3
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: nodeOutFilter
-      Entry: 7
-      Data: 50|NodeFilter, Assembly-CSharp
-    - Name: wtf
-      Entry: 3
-      Data: 0
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: filter
-      Entry: 7
-      Data: 51|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 7
-      Data: 52|NodeMEntity, Assembly-CSharp
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentFilter
-      Entry: 9
-      Data: 50
-    - Name: components
-      Entry: 7
-      Data: 53|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 54|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 55|GeneralComponents+Position, Assembly-CSharp
-    - Name: position
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 52
-    - Name: tree
-      Entry: 7
-      Data: 56|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Position,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 10
-    - Name: style
-      Entry: 7
-      Data: 57|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 58|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 59|GeneralComponents+Loan, Assembly-CSharp
-    - Name: size
-      Entry: 4
-      Data: 0
-    - Name: repaymentRate
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 52
-    - Name: tree
-      Entry: 7
-      Data: 60|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Loan,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 18
-    - Name: style
-      Entry: 7
-      Data: 61|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 20
-    - Name: style
-      Entry: 7
-      Data: 62|NodeMEntityStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: orientation
-      Entry: 3
-      Data: 1
-    - Name: entity
-      Entry: 6
-      Data: 
-    - Name: nodeName
-      Entry: 1
-      Data: dynamicInput_6
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 28
-    - Name: style
-      Entry: 7
-      Data: 63|NodeFilterStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: orientation
-      Entry: 3
-      Data: 1
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: sourceAction
-      Entry: 10
-      Data: 3
-    - Name: actionType
-      Entry: 7
-      Data: 64|System.RuntimeType, mscorlib
-    - Name: 
-      Entry: 1
-      Data: TestAction, Assembly-CSharp
-    - Name: 
-      Entry: 8
-      Data: 
-  garbage: 
---- !u!114 &114198432305898164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d55d6d3296dc2de4ca9b8ae3ac447832, type: 3}
-  m_Name: Goal
-  m_EditorClassIdentifier: 
-  serializationData:
-    SerializedFormat: 2
-    SerializedBytes: 
-    ReferencedUnityObjects:
-    - {fileID: 11400000}
-    - {fileID: 114198432305898164}
-    - {fileID: 114932835028012490}
-    - {fileID: 114152009306393652}
-    SerializedBytesString: 
-    Prefab: {fileID: 0}
-    PrefabModificationsReferencedUnityObjects: []
-    PrefabModifications: []
-    SerializationNodes:
-    - Name: graph
-      Entry: 10
-      Data: 0
-    - Name: position
-      Entry: 7
-      Data: UnityEngine.Vector2, UnityEngine.CoreModule
-    - Name: 
-      Entry: 4
-      Data: -8
-    - Name: 
-      Entry: 4
-      Data: -136
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: ports
-      Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[XNode.NodePort,
-        XNode]], mscorlib
-    - Name: comparer
-      Entry: 7
-      Data: 1|System.Collections.Generic.GenericEqualityComparer`1[[System.String,
-        mscorlib]], mscorlib
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 12
-      Data: 7
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: dynamicInput_0
-    - Name: $v
-      Entry: 7
-      Data: 2|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_0
-    - Name: _node
-      Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
-      Entry: 7
-      Data: 3|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 4|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_12
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 5|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
       Data: dynamicInput_15
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 7|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 8|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_16
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 9|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 0
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: dynamicInput_1
-    - Name: $v
-      Entry: 7
-      Data: 10|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_1
-    - Name: _node
-      Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
-      Entry: 7
-      Data: 11|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 12|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_8
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 13|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 14|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_10
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 15|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 16|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_16
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 17|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 0
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: dynamicInput_2
-    - Name: $v
-      Entry: 7
-      Data: 18|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_2
-    - Name: _node
-      Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
-      Entry: 7
-      Data: 19|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 20|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_8
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 21|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 22|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_10
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 23|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 24|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_16
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 25|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 26|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_12
     - Name: node
       Entry: 10
       Data: 2
@@ -1512,13 +590,38 @@ MonoBehaviour:
       Data: 28|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_15
+      Data: dynamicInput_17
     - Name: node
       Entry: 10
       Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 29|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 30|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_22
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -1561,13 +664,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_3
+      Data: dynamicInput_9
     - Name: $v
       Entry: 7
-      Data: 30|XNode.NodePort, XNode
+      Data: 32|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_3
+      Data: dynamicInput_9
     - Name: _node
       Entry: 10
       Data: 1
@@ -1576,45 +679,20 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 31|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 33|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 3
-    - Name: 
-      Entry: 7
-      Data: 32|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_4
-    - Name: node
-      Entry: 10
-      Data: 3
-    - Name: reroutePoints
-      Entry: 7
-      Data: 33|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 7
       Data: 34|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_18
     - Name: node
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 35|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
@@ -1636,13 +714,38 @@ MonoBehaviour:
       Data: 36|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_7
+      Data: dynamicInput_19
     - Name: node
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 37|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_22
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -1685,13 +788,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_4
+      Data: dynamicInput_10
     - Name: $v
       Entry: 7
-      Data: 38|XNode.NodePort, XNode
+      Data: 40|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_4
+      Data: dynamicInput_10
     - Name: _node
       Entry: 10
       Data: 1
@@ -1700,42 +803,17 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 39|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 41|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 40|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_13
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 41|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
       Data: 42|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_15
+      Data: dynamicInput_18
     - Name: node
       Entry: 10
       Data: 2
@@ -1760,13 +838,38 @@ MonoBehaviour:
       Data: 44|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_16
+      Data: dynamicInput_19
     - Name: node
       Entry: 10
       Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 45|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 46|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_22
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -1809,13 +912,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_5
+      Data: dynamicInput_11
     - Name: $v
       Entry: 7
-      Data: 46|XNode.NodePort, XNode
+      Data: 48|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_5
+      Data: dynamicInput_11
     - Name: _node
       Entry: 10
       Data: 1
@@ -1824,42 +927,17 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 47|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 49|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 6
-    - Name: 
-      Entry: 7
-      Data: 48|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_13
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 49|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+      Data: 3
     - Name: 
       Entry: 7
       Data: 50|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_15
+      Data: dynamicInput_20
     - Name: node
       Entry: 10
       Data: 2
@@ -1884,7 +962,7 @@ MonoBehaviour:
       Data: 52|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_16
+      Data: dynamicInput_21
     - Name: node
       Entry: 10
       Data: 2
@@ -1909,63 +987,13 @@ MonoBehaviour:
       Data: 54|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_4
+      Data: dynamicInput_22
     - Name: node
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 55|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 56|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_6
-    - Name: node
-      Entry: 10
-      Data: 3
-    - Name: reroutePoints
-      Entry: 7
-      Data: 57|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 58|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_7
-    - Name: node
-      Entry: 10
-      Data: 3
-    - Name: reroutePoints
-      Entry: 7
-      Data: 59|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -2008,13 +1036,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_12
     - Name: $v
       Entry: 7
-      Data: 60|XNode.NodePort, XNode
+      Data: 56|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_12
     - Name: _node
       Entry: 10
       Data: 1
@@ -2023,17 +1051,67 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 61|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 57|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 9
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 58|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_20
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 60|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_21
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 61|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 7
       Data: 62|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_8
+      Data: dynamicInput_22
     - Name: node
       Entry: 10
       Data: 2
@@ -2054,36 +1132,60 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: 64|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_10
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 65|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: $v
+      Entry: 7
+      Data: 64|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 65|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
       Data: 66|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_16
+      Data: dynamicInput_15
     - Name: node
       Entry: 10
       Data: 2
@@ -2108,7 +1210,7 @@ MonoBehaviour:
       Data: 68|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_12
+      Data: dynamicInput_17
     - Name: node
       Entry: 10
       Data: 2
@@ -2133,7 +1235,7 @@ MonoBehaviour:
       Data: 70|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_15
+      Data: dynamicInput_22
     - Name: node
       Entry: 10
       Data: 2
@@ -2158,7 +1260,7 @@ MonoBehaviour:
       Data: 72|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_13
+      Data: dynamicInput_18
     - Name: node
       Entry: 10
       Data: 2
@@ -2183,10 +1285,10 @@ MonoBehaviour:
       Data: 74|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_4
+      Data: dynamicInput_19
     - Name: node
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 75|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
@@ -2208,10 +1310,10 @@ MonoBehaviour:
       Data: 76|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_20
     - Name: node
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 77|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
@@ -2233,10 +1335,10 @@ MonoBehaviour:
       Data: 78|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_7
+      Data: dynamicInput_21
     - Name: node
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 79|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
@@ -2298,7 +1400,7 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
       Data: 82|NodeMEntity, Assembly-CSharp
@@ -2314,14 +1416,14 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 8
     - Name: 
       Entry: 7
       Data: 84|NodeIComponent, Assembly-CSharp
     - Name: component
       Entry: 7
-      Data: 85|GeneralComponents+Income, Assembly-CSharp
-    - Name: income
+      Data: 85|VesselComponents.Capacity, Assembly-CSharp
+    - Name: capacity
       Entry: 4
       Data: 0
     - Name: 
@@ -2333,19 +1435,12 @@ MonoBehaviour:
     - Name: parentEntity
       Entry: 9
       Data: 82
-    - Name: tree
-      Entry: 7
-      Data: 86|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Income,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: port
       Entry: 9
       Data: 2
     - Name: style
       Entry: 7
-      Data: 87|NodeIComponentStyle, Assembly-CSharp
+      Data: 86|NodeIComponentStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -2360,10 +1455,82 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 88|NodeIComponent, Assembly-CSharp
+      Data: 87|NodeIComponent, Assembly-CSharp
     - Name: component
       Entry: 7
-      Data: 89|GeneralComponents+Efficiency, Assembly-CSharp
+      Data: 88|VesselComponents.VesselObject, Assembly-CSharp
+    - Name: vessel
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 82
+    - Name: port
+      Entry: 9
+      Data: 4
+    - Name: style
+      Entry: 7
+      Data: 89|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 91|VesselComponents.Crew, Assembly-CSharp
+    - Name: crewNumber
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 82
+    - Name: port
+      Entry: 9
+      Data: 6
+    - Name: style
+      Entry: 7
+      Data: 92|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 93|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 94|GeneralComponents.Efficiency, Assembly-CSharp
     - Name: efficiency
       Entry: 4
       Data: 0
@@ -2376,19 +1543,12 @@ MonoBehaviour:
     - Name: parentEntity
       Entry: 9
       Data: 82
-    - Name: tree
-      Entry: 7
-      Data: 90|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Efficiency,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: port
       Entry: 9
-      Data: 10
+      Data: 8
     - Name: style
       Entry: 7
-      Data: 91|NodeIComponentStyle, Assembly-CSharp
+      Data: 95|NodeIComponentStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -2402,75 +1562,17 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 18
-    - Name: style
       Entry: 7
-      Data: 92|NodeMEntityStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: orientation
-      Entry: 3
-      Data: 0
-    - Name: entity
-      Entry: 6
-      Data: 
-    - Name: nodeName
-      Entry: 1
-      Data: dynamicInput_2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 93|NodeMEntity, Assembly-CSharp
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentFilter
-      Entry: 9
-      Data: 80
-    - Name: components
-      Entry: 7
-      Data: 94|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 2
-    - Name: 
-      Entry: 7
-      Data: 95|NodeIComponent, Assembly-CSharp
+      Data: 96|NodeIComponent, Assembly-CSharp
     - Name: component
       Entry: 7
-      Data: 96|GeneralComponents+Position, Assembly-CSharp
-    - Name: position
-      Entry: 7
-      Data: UnityEngine.Vector3, UnityEngine.CoreModule
-    - Name: 
+      Data: 97|GeneralComponents.MaintenanceCost, Assembly-CSharp
+    - Name: cost
       Entry: 4
       Data: 0
-    - Name: 
-      Entry: 4
+    - Name: period
+      Entry: 3
       Data: 0
-    - Name: 
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2479,17 +1581,10 @@ MonoBehaviour:
       Data: 1
     - Name: parentEntity
       Entry: 9
-      Data: 93
-    - Name: tree
-      Entry: 7
-      Data: 97|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Position,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
+      Data: 82
     - Name: port
       Entry: 9
-      Data: 30
+      Data: 10
     - Name: style
       Entry: 7
       Data: 98|NodeIComponentStyle, Assembly-CSharp
@@ -2510,12 +1605,45 @@ MonoBehaviour:
       Data: 99|NodeIComponent, Assembly-CSharp
     - Name: component
       Entry: 7
-      Data: 100|VesselComponents+Catch, Assembly-CSharp
-    - Name: size
+      Data: 100|GeneralComponents.Cost, Assembly-CSharp
+    - Name: cost
       Entry: 4
       Data: 0
-    - Name: species
-      Entry: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 82
+    - Name: port
+      Entry: 9
+      Data: 12
+    - Name: style
+      Entry: 7
+      Data: 101|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 102|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 103|GeneralComponents.Owner, Assembly-CSharp
+    - Name: owner
+      Entry: 6
       Data: 
     - Name: 
       Entry: 8
@@ -2525,20 +1653,49 @@ MonoBehaviour:
       Data: 1
     - Name: parentEntity
       Entry: 9
-      Data: 93
-    - Name: tree
+      Data: 82
+    - Name: port
+      Entry: 9
+      Data: 20
+    - Name: style
       Entry: 7
-      Data: 101|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+Catch,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+      Data: 104|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 105|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 106|FlagComponents.IsActive, Assembly-CSharp
+    - Name: value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 82
     - Name: port
       Entry: 9
-      Data: 38
+      Data: 22
     - Name: style
       Entry: 7
-      Data: 102|NodeIComponentStyle, Assembly-CSharp
+      Data: 107|NodeIComponentStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -2559,13 +1716,13 @@ MonoBehaviour:
       Data: 
     - Name: port
       Entry: 9
-      Data: 46
+      Data: 24
     - Name: style
       Entry: 7
-      Data: 103|NodeMEntityStyle, Assembly-CSharp
+      Data: 108|NodeMEntityStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
-      Data: true
+      Data: false
     - Name: portVisible
       Entry: 5
       Data: false
@@ -2580,7 +1737,62 @@ MonoBehaviour:
       Data: 
     - Name: nodeName
       Entry: 1
-      Data: dynamicInput_5
+      Data: dynamicInput_8
+    - Name: entityName
+      Entry: 1
+      Data: VesselProfile
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 109|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 80
+    - Name: components
+      Entry: 7
+      Data: 110|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 111|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 112|GeneralComponents.Profit, Assembly-CSharp
+    - Name: profit
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 109
+    - Name: port
+      Entry: 9
+      Data: 32
+    - Name: style
+      Entry: 7
+      Data: 113|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -2592,10 +1804,134 @@ MonoBehaviour:
       Data: 
     - Name: port
       Entry: 9
-      Data: 60
+      Data: 40
     - Name: style
       Entry: 7
-      Data: 104|NodeFilterStyle, Assembly-CSharp
+      Data: 114|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: entityName
+      Entry: 1
+      Data: Income
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 115|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 80
+    - Name: components
+      Entry: 7
+      Data: 116|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 117|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 118|GeneralComponents.Money, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 115
+    - Name: port
+      Entry: 9
+      Data: 48
+    - Name: style
+      Entry: 7
+      Data: 119|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 56
+    - Name: style
+      Entry: 7
+      Data: 120|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: entityName
+      Entry: 1
+      Data: Savings
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 64
+    - Name: style
+      Entry: 7
+      Data: 121|NodeFilterStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -2613,15 +1949,15 @@ MonoBehaviour:
       Data: 
     - Name: goalType
       Entry: 7
-      Data: 105|System.RuntimeType, mscorlib
+      Data: 122|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: SomeGoal, Assembly-CSharp
+      Data: KeepFishing, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
-  sourceGoal: {fileID: 11400000, guid: b4366cc5aaec9d04a921a91fcc88c3bf, type: 2}
---- !u!114 &114932835028012490
+  sourceGoal: {fileID: 11400000, guid: 5cc00626fe0394b4cb97b96d6f18af6a, type: 2}
+--- !u!114 &114993805213327624
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2638,9 +1974,9 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000}
-    - {fileID: 114932835028012490}
-    - {fileID: 114198432305898164}
-    - {fileID: 11400000, guid: afc7c22abaa0d734a8fae828432c5f0f, type: 2}
+    - {fileID: 114993805213327624}
+    - {fileID: 114050338958286208}
+    - {fileID: 11400000, guid: 4058ac6999f75f84c872ddba5f41ff03, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -2654,10 +1990,10 @@ MonoBehaviour:
       Data: UnityEngine.Vector2, UnityEngine.CoreModule
     - Name: 
       Entry: 4
-      Data: -248
+      Data: -120
     - Name: 
       Entry: 4
-      Data: -280
+      Data: -312
     - Name: 
       Entry: 8
       Data: 
@@ -2674,7 +2010,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 17
+      Data: 23
     - Name: 
       Entry: 7
       Data: 
@@ -3091,82 +2427,7 @@ MonoBehaviour:
         mscorlib
     - Name: 
       Entry: 12
-      Data: 3
-    - Name: 
-      Entry: 7
-      Data: 20|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_1
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 21|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
       Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 22|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_2
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 23|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 24|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_6
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 25|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -3175,7 +2436,7 @@ MonoBehaviour:
       Data: 
     - Name: _direction
       Entry: 3
-      Data: 1
+      Data: 0
     - Name: _connectionType
       Entry: 3
       Data: 0
@@ -3199,10 +2460,157 @@ MonoBehaviour:
       Data: dynamicInput_9
     - Name: $v
       Entry: 7
-      Data: 26|XNode.NodePort, XNode
+      Data: 20|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
       Data: dynamicInput_9
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 21|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: $v
+      Entry: 7
+      Data: 22|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 23|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_11
+    - Name: $v
+      Entry: 7
+      Data: 24|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_11
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 25|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: $v
+      Entry: 7
+      Data: 26|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_12
     - Name: _node
       Entry: 10
       Data: 1
@@ -3224,6 +2632,104 @@ MonoBehaviour:
       Data: 
     - Name: _direction
       Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: $v
+      Entry: 7
+      Data: 28|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 29|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 0
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_14
+    - Name: $v
+      Entry: 7
+      Data: 30|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_14
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 31|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
       Data: 1
     - Name: _connectionType
       Entry: 3
@@ -3245,13 +2751,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_10
+      Data: dynamicInput_15
     - Name: $v
       Entry: 7
-      Data: 28|XNode.NodePort, XNode
+      Data: 32|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_10
+      Data: dynamicInput_15
     - Name: _node
       Entry: 10
       Data: 1
@@ -3260,67 +2766,17 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 29|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 33|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 30|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_1
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 31|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 32|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_2
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 33|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
       Data: 34|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_5
     - Name: node
       Entry: 10
       Data: 2
@@ -3341,6 +2797,56 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 36|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 37|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 38|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 39|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -3369,13 +2875,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_11
+      Data: dynamicInput_16
     - Name: $v
       Entry: 7
-      Data: 36|XNode.NodePort, XNode
+      Data: 40|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_11
+      Data: dynamicInput_16
     - Name: _node
       Entry: 10
       Data: 1
@@ -3384,7 +2890,7 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 37|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 41|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
@@ -3418,13 +2924,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_12
+      Data: dynamicInput_17
     - Name: $v
       Entry: 7
-      Data: 38|XNode.NodePort, XNode
+      Data: 42|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_12
+      Data: dynamicInput_17
     - Name: _node
       Entry: 10
       Data: 1
@@ -3433,67 +2939,17 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 39|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 43|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
       Data: 3
     - Name: 
       Entry: 7
-      Data: 40|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_0
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 41|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 42|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_2
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 43|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
       Data: 44|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_5
     - Name: node
       Entry: 10
       Data: 2
@@ -3514,60 +2970,36 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 46|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 47|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 1
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: dynamicInput_13
-    - Name: $v
-      Entry: 7
-      Data: 46|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_13
-    - Name: _node
-      Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
-      Entry: 7
-      Data: 47|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 3
     - Name: 
       Entry: 7
       Data: 48|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_4
+      Data: dynamicInput_13
     - Name: node
       Entry: 10
       Data: 2
@@ -3588,36 +3020,60 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: 50|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_5
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 51|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_18
+    - Name: $v
+      Entry: 7
+      Data: 50|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_18
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 51|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
       Data: 52|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_9
     - Name: node
       Entry: 10
       Data: 2
@@ -3638,115 +3094,17 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 1
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
       Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: dynamicInput_14
-    - Name: $v
-      Entry: 7
-      Data: 54|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_14
-    - Name: _node
-      Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
-      Entry: 7
-      Data: 55|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: _direction
-      Entry: 3
-      Data: 1
-    - Name: _connectionType
-      Entry: 3
-      Data: 0
-    - Name: _typeConstraint
-      Entry: 3
-      Data: 0
-    - Name: _dynamic
-      Entry: 5
-      Data: true
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 1
-      Data: dynamicInput_15
-    - Name: $v
-      Entry: 7
-      Data: 56|XNode.NodePort, XNode
-    - Name: _fieldName
-      Entry: 1
-      Data: dynamicInput_15
-    - Name: _node
-      Entry: 10
-      Data: 1
-    - Name: _typeQualifiedName
-      Entry: 1
-      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-    - Name: connections
-      Entry: 7
-      Data: 57|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 5
-    - Name: 
-      Entry: 7
-      Data: 58|XNode.NodePort+PortConnection, XNode
+      Data: 54|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_0
+      Data: dynamicInput_10
     - Name: node
       Entry: 10
       Data: 2
     - Name: reroutePoints
       Entry: 7
-      Data: 59|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+      Data: 55|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -3762,10 +3120,84 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
+      Data: 56|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 57|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_19
+    - Name: $v
+      Entry: 7
+      Data: 58|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_19
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 59|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
       Data: 60|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_2
+      Data: dynamicInput_9
     - Name: node
       Entry: 10
       Data: 2
@@ -3790,7 +3222,7 @@ MonoBehaviour:
       Data: 62|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_10
     - Name: node
       Entry: 10
       Data: 2
@@ -3815,38 +3247,13 @@ MonoBehaviour:
       Data: 64|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_4
+      Data: dynamicInput_13
     - Name: node
       Entry: 10
       Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 65|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 66|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_5
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 67|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -3889,13 +3296,13 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 1
-      Data: dynamicInput_16
+      Data: dynamicInput_20
     - Name: $v
       Entry: 7
-      Data: 68|XNode.NodePort, XNode
+      Data: 66|XNode.NodePort, XNode
     - Name: _fieldName
       Entry: 1
-      Data: dynamicInput_16
+      Data: dynamicInput_20
     - Name: _node
       Entry: 10
       Data: 1
@@ -3904,17 +3311,42 @@ MonoBehaviour:
       Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
     - Name: connections
       Entry: 7
-      Data: 69|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+      Data: 67|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 6
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 68|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_11
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 69|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 7
       Data: 70|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_1
+      Data: dynamicInput_12
     - Name: node
       Entry: 10
       Data: 2
@@ -3939,7 +3371,7 @@ MonoBehaviour:
       Data: 72|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_2
+      Data: dynamicInput_13
     - Name: node
       Entry: 10
       Data: 2
@@ -3960,36 +3392,60 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: 74|XNode.NodePort+PortConnection, XNode
-    - Name: fieldName
-      Entry: 1
-      Data: dynamicInput_6
-    - Name: node
-      Entry: 10
-      Data: 2
-    - Name: reroutePoints
-      Entry: 7
-      Data: 75|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 0
-    - Name: 
       Entry: 13
       Data: 
     - Name: 
       Entry: 8
       Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_21
+    - Name: $v
+      Entry: 7
+      Data: 74|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_21
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 75|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
       Data: 76|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_0
+      Data: dynamicInput_11
     - Name: node
       Entry: 10
       Data: 2
@@ -4014,7 +3470,7 @@ MonoBehaviour:
       Data: 78|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_4
+      Data: dynamicInput_12
     - Name: node
       Entry: 10
       Data: 2
@@ -4039,13 +3495,237 @@ MonoBehaviour:
       Data: 80|XNode.NodePort+PortConnection, XNode
     - Name: fieldName
       Entry: 1
-      Data: dynamicInput_5
+      Data: dynamicInput_13
     - Name: node
       Entry: 10
       Data: 2
     - Name: reroutePoints
       Entry: 7
       Data: 81|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _direction
+      Entry: 3
+      Data: 1
+    - Name: _connectionType
+      Entry: 3
+      Data: 0
+    - Name: _typeConstraint
+      Entry: 3
+      Data: 0
+    - Name: _dynamic
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 1
+      Data: dynamicInput_22
+    - Name: $v
+      Entry: 7
+      Data: 82|XNode.NodePort, XNode
+    - Name: _fieldName
+      Entry: 1
+      Data: dynamicInput_22
+    - Name: _node
+      Entry: 10
+      Data: 1
+    - Name: _typeQualifiedName
+      Entry: 1
+      Data: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+    - Name: connections
+      Entry: 7
+      Data: 83|System.Collections.Generic.List`1[[XNode.NodePort+PortConnection, XNode]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 7
+    - Name: 
+      Entry: 7
+      Data: 84|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_5
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 85|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 86|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 87|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 88|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_13
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 89|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 90|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_9
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 91|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 92|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_10
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 93|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 94|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_11
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 95|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 96|XNode.NodePort+PortConnection, XNode
+    - Name: fieldName
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: node
+      Entry: 10
+      Data: 2
+    - Name: reroutePoints
+      Entry: 7
+      Data: 97|System.Collections.Generic.List`1[[UnityEngine.Vector2, UnityEngine.CoreModule]],
         mscorlib
     - Name: 
       Entry: 12
@@ -4091,7 +3771,7 @@ MonoBehaviour:
       Data: 
     - Name: nodeInFilter
       Entry: 7
-      Data: 82|NodeFilter, Assembly-CSharp
+      Data: 98|NodeFilter, Assembly-CSharp
     - Name: wtf
       Entry: 3
       Data: 0
@@ -4100,267 +3780,70 @@ MonoBehaviour:
       Data: 1
     - Name: filter
       Entry: 7
-      Data: 83|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
+      Data: 99|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
-      Data: 84|NodeMEntity, Assembly-CSharp
+      Data: 100|NodeMEntity, Assembly-CSharp
     - Name: parent
       Entry: 10
       Data: 1
     - Name: parentFilter
       Entry: 9
-      Data: 82
+      Data: 98
     - Name: components
       Entry: 7
-      Data: 85|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+      Data: 101|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 4
-    - Name: 
-      Entry: 7
-      Data: 86|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 87|VesselComponents+BaseQuota, Assembly-CSharp
-    - Name: quota
-      Entry: 4
-      Data: 0
-    - Name: species
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 84
-    - Name: tree
-      Entry: 7
-      Data: 88|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+BaseQuota,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 2
-    - Name: style
-      Entry: 7
-      Data: 89|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 90|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 91|VesselComponents+Gear, Assembly-CSharp
-    - Name: name
-      Entry: 6
-      Data: 
-    - Name: targetSpecies
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 84
-    - Name: tree
-      Entry: 7
-      Data: 92|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+Gear,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 4
-    - Name: style
-      Entry: 7
-      Data: 93|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 94|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 95|GeneralComponents+Loan, Assembly-CSharp
-    - Name: size
-      Entry: 4
-      Data: 0
-    - Name: repaymentRate
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 84
-    - Name: tree
-      Entry: 7
-      Data: 96|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Loan,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 6
-    - Name: style
-      Entry: 7
-      Data: 97|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 98|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 99|GeneralComponents+Price, Assembly-CSharp
-    - Name: price
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 84
-    - Name: tree
-      Entry: 7
-      Data: 100|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Price,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
       Data: 8
-    - Name: style
+    - Name: 
       Entry: 7
-      Data: 101|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 10
-    - Name: style
+      Data: 102|NodeIComponent, Assembly-CSharp
+    - Name: component
       Entry: 7
-      Data: 102|NodeMEntityStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: orientation
-      Entry: 3
+      Data: 103|VesselComponents.Capacity, Assembly-CSharp
+    - Name: capacity
+      Entry: 4
       Data: 0
-    - Name: entity
-      Entry: 6
-      Data: 
-    - Name: nodeName
-      Entry: 1
-      Data: dynamicInput_4
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 7
-      Data: 103|NodeMEntity, Assembly-CSharp
     - Name: parent
       Entry: 10
       Data: 1
-    - Name: parentFilter
+    - Name: parentEntity
       Entry: 9
-      Data: 82
-    - Name: components
+      Data: 100
+    - Name: port
+      Entry: 9
+      Data: 2
+    - Name: style
       Entry: 7
-      Data: 104|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
-        mscorlib
+      Data: 104|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
     - Name: 
-      Entry: 12
-      Data: 1
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 7
       Data: 105|NodeIComponent, Assembly-CSharp
     - Name: component
       Entry: 7
-      Data: 106|VesselComponents+BaseQuota, Assembly-CSharp
-    - Name: quota
-      Entry: 4
-      Data: 0
-    - Name: species
+      Data: 106|VesselComponents.VesselObject, Assembly-CSharp
+    - Name: vessel
       Entry: 6
       Data: 
     - Name: 
@@ -4371,20 +3854,232 @@ MonoBehaviour:
       Data: 1
     - Name: parentEntity
       Entry: 9
-      Data: 103
-    - Name: tree
+      Data: 100
+    - Name: port
+      Entry: 9
+      Data: 4
+    - Name: style
       Entry: 7
-      Data: 107|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+BaseQuota,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+      Data: 107|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 108|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 109|VesselComponents.Crew, Assembly-CSharp
+    - Name: crewNumber
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 100
+    - Name: port
+      Entry: 9
+      Data: 6
+    - Name: style
+      Entry: 7
+      Data: 110|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 111|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 112|GeneralComponents.Efficiency, Assembly-CSharp
+    - Name: efficiency
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 100
+    - Name: port
+      Entry: 9
+      Data: 8
+    - Name: style
+      Entry: 7
+      Data: 113|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 114|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 115|GeneralComponents.MaintenanceCost, Assembly-CSharp
+    - Name: cost
+      Entry: 4
+      Data: 0
+    - Name: period
+      Entry: 3
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 100
+    - Name: port
+      Entry: 9
+      Data: 10
+    - Name: style
+      Entry: 7
+      Data: 116|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 117|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 118|GeneralComponents.Cost, Assembly-CSharp
+    - Name: cost
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 100
     - Name: port
       Entry: 9
       Data: 12
     - Name: style
       Entry: 7
-      Data: 108|NodeIComponentStyle, Assembly-CSharp
+      Data: 119|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 120|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 121|GeneralComponents.Owner, Assembly-CSharp
+    - Name: owner
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 100
+    - Name: port
+      Entry: 9
+      Data: 14
+    - Name: style
+      Entry: 7
+      Data: 122|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 123|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 124|FlagComponents.IsActive, Assembly-CSharp
+    - Name: value
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 100
+    - Name: port
+      Entry: 9
+      Data: 16
+    - Name: style
+      Entry: 7
+      Data: 125|NodeIComponentStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -4405,10 +4100,98 @@ MonoBehaviour:
       Data: 
     - Name: port
       Entry: 9
-      Data: 14
+      Data: 18
     - Name: style
       Entry: 7
-      Data: 109|NodeMEntityStyle, Assembly-CSharp
+      Data: 126|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: true
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_8
+    - Name: entityName
+      Entry: 1
+      Data: VesselProfile
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 127|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 98
+    - Name: components
+      Entry: 7
+      Data: 128|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 129|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 130|GeneralComponents.Profit, Assembly-CSharp
+    - Name: profit
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 127
+    - Name: port
+      Entry: 9
+      Data: 20
+    - Name: style
+      Entry: 7
+      Data: 131|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 22
+    - Name: style
+      Entry: 7
+      Data: 132|NodeMEntityStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -4426,7 +4209,62 @@ MonoBehaviour:
       Data: 
     - Name: nodeName
       Entry: 1
-      Data: dynamicInput_6
+      Data: dynamicInput_10
+    - Name: entityName
+      Entry: 1
+      Data: Income
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 133|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 98
+    - Name: components
+      Entry: 7
+      Data: 134|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 135|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 136|GeneralComponents.Money, Assembly-CSharp
+    - Name: value
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 133
+    - Name: port
+      Entry: 9
+      Data: 24
+    - Name: style
+      Entry: 7
+      Data: 137|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4438,10 +4276,46 @@ MonoBehaviour:
       Data: 
     - Name: port
       Entry: 9
-      Data: 16
+      Data: 26
     - Name: style
       Entry: 7
-      Data: 110|NodeFilterStyle, Assembly-CSharp
+      Data: 138|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 0
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_12
+    - Name: entityName
+      Entry: 1
+      Data: Savings
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 28
+    - Name: style
+      Entry: 7
+      Data: 139|NodeFilterStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -4459,7 +4333,7 @@ MonoBehaviour:
       Data: 
     - Name: nodeOutFilter
       Entry: 7
-      Data: 111|NodeFilter, Assembly-CSharp
+      Data: 140|NodeFilter, Assembly-CSharp
     - Name: wtf
       Entry: 3
       Data: 0
@@ -4468,259 +4342,38 @@ MonoBehaviour:
       Data: 1
     - Name: filter
       Entry: 7
-      Data: 112|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
+      Data: 141|System.Collections.Generic.List`1[[NodeMEntity, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
-      Data: 113|NodeMEntity, Assembly-CSharp
+      Data: 142|NodeMEntity, Assembly-CSharp
     - Name: parent
       Entry: 10
       Data: 1
     - Name: parentFilter
       Entry: 9
-      Data: 111
+      Data: 140
     - Name: components
       Entry: 7
-      Data: 114|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+      Data: 143|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
         mscorlib
     - Name: 
       Entry: 12
-      Data: 2
+      Data: 3
     - Name: 
       Entry: 7
-      Data: 115|NodeIComponent, Assembly-CSharp
+      Data: 144|NodeIComponent, Assembly-CSharp
     - Name: component
       Entry: 7
-      Data: 116|GeneralComponents+Efficiency, Assembly-CSharp
-    - Name: efficiency
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 113
-    - Name: tree
-      Entry: 7
-      Data: 117|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Efficiency,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 18
-    - Name: style
-      Entry: 7
-      Data: 118|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 119|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 120|GeneralComponents+Cost, Assembly-CSharp
-    - Name: cost
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 113
-    - Name: tree
-      Entry: 7
-      Data: 121|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Cost,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 26
-    - Name: style
-      Entry: 7
-      Data: 122|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 28
-    - Name: style
-      Entry: 7
-      Data: 123|NodeMEntityStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: orientation
-      Entry: 3
-      Data: 1
-    - Name: entity
-      Entry: 6
-      Data: 
-    - Name: nodeName
-      Entry: 1
-      Data: dynamicInput_10
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 124|NodeMEntity, Assembly-CSharp
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentFilter
-      Entry: 9
-      Data: 111
-    - Name: components
-      Entry: 7
-      Data: 125|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
-        mscorlib
-    - Name: 
-      Entry: 12
-      Data: 4
-    - Name: 
-      Entry: 7
-      Data: 126|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 127|GeneralComponents+Inventory, Assembly-CSharp
-    - Name: list
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 124
-    - Name: tree
-      Entry: 7
-      Data: 128|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Inventory,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 36
-    - Name: style
-      Entry: 7
-      Data: 129|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 130|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 131|GeneralComponents+Income, Assembly-CSharp
-    - Name: income
-      Entry: 4
-      Data: 0
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: parent
-      Entry: 10
-      Data: 1
-    - Name: parentEntity
-      Entry: 9
-      Data: 124
-    - Name: tree
-      Entry: 7
-      Data: 132|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+Income,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: port
-      Entry: 9
-      Data: 38
-    - Name: style
-      Entry: 7
-      Data: 133|NodeIComponentStyle, Assembly-CSharp
-    - Name: unfolded
-      Entry: 5
-      Data: false
-    - Name: portVisible
-      Entry: 5
-      Data: false
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 134|NodeIComponent, Assembly-CSharp
-    - Name: component
-      Entry: 7
-      Data: 135|VesselComponents+Catch, Assembly-CSharp
+      Data: 145|VesselComponents.Catch, Assembly-CSharp
     - Name: size
       Entry: 4
       Data: 0
     - Name: species
-      Entry: 6
+      Entry: 1
       Data: 
     - Name: 
       Entry: 8
@@ -4730,20 +4383,13 @@ MonoBehaviour:
       Data: 1
     - Name: parentEntity
       Entry: 9
-      Data: 124
-    - Name: tree
-      Entry: 7
-      Data: 136|Sirenix.OdinInspector.Editor.PropertyTree`1[[VesselComponents+Catch,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
-    - Name: 
-      Entry: 8
-      Data: 
+      Data: 142
     - Name: port
       Entry: 9
-      Data: 46
+      Data: 30
     - Name: style
       Entry: 7
-      Data: 137|NodeIComponentStyle, Assembly-CSharp
+      Data: 146|NodeIComponentStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -4758,15 +4404,12 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 7
-      Data: 138|NodeIComponent, Assembly-CSharp
+      Data: 147|NodeIComponent, Assembly-CSharp
     - Name: component
       Entry: 7
-      Data: 139|GeneralComponents+MaintenanceCost, Assembly-CSharp
+      Data: 148|GeneralComponents.Cost, Assembly-CSharp
     - Name: cost
       Entry: 4
-      Data: 0
-    - Name: period
-      Entry: 3
       Data: 0
     - Name: 
       Entry: 8
@@ -4776,20 +4419,49 @@ MonoBehaviour:
       Data: 1
     - Name: parentEntity
       Entry: 9
-      Data: 124
-    - Name: tree
+      Data: 142
+    - Name: port
+      Entry: 9
+      Data: 32
+    - Name: style
       Entry: 7
-      Data: 140|Sirenix.OdinInspector.Editor.PropertyTree`1[[GeneralComponents+MaintenanceCost,
-        Assembly-CSharp]], Sirenix.OdinInspector.Editor
+      Data: 149|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
     - Name: 
       Entry: 8
       Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 150|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 7
+      Data: 151|ResourceComponents.ByCatch, Assembly-CSharp
+    - Name: size
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 142
     - Name: port
       Entry: 9
-      Data: 54
+      Data: 40
     - Name: style
       Entry: 7
-      Data: 141|NodeIComponentStyle, Assembly-CSharp
+      Data: 152|NodeIComponentStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -4810,10 +4482,10 @@ MonoBehaviour:
       Data: 
     - Name: port
       Entry: 9
-      Data: 56
+      Data: 42
     - Name: style
       Entry: 7
-      Data: 142|NodeMEntityStyle, Assembly-CSharp
+      Data: 153|NodeMEntityStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -4831,7 +4503,56 @@ MonoBehaviour:
       Data: 
     - Name: nodeName
       Entry: 1
-      Data: dynamicInput_15
+      Data: dynamicInput_17
+    - Name: entityName
+      Entry: 1
+      Data: Catch
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 154|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 140
+    - Name: components
+      Entry: 7
+      Data: 155|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 156|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 9
+      Data: 130
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 154
+    - Name: port
+      Entry: 9
+      Data: 50
+    - Name: style
+      Entry: 7
+      Data: 157|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -4843,10 +4564,128 @@ MonoBehaviour:
       Data: 
     - Name: port
       Entry: 9
-      Data: 68
+      Data: 58
     - Name: style
       Entry: 7
-      Data: 143|NodeFilterStyle, Assembly-CSharp
+      Data: 158|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 1
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_19
+    - Name: entityName
+      Entry: 1
+      Data: Income
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 159|NodeMEntity, Assembly-CSharp
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentFilter
+      Entry: 9
+      Data: 140
+    - Name: components
+      Entry: 7
+      Data: 160|System.Collections.Generic.List`1[[NodeIComponent, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 161|NodeIComponent, Assembly-CSharp
+    - Name: component
+      Entry: 9
+      Data: 136
+    - Name: parent
+      Entry: 10
+      Data: 1
+    - Name: parentEntity
+      Entry: 9
+      Data: 159
+    - Name: port
+      Entry: 9
+      Data: 66
+    - Name: style
+      Entry: 7
+      Data: 162|NodeIComponentStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 74
+    - Name: style
+      Entry: 7
+      Data: 163|NodeMEntityStyle, Assembly-CSharp
+    - Name: unfolded
+      Entry: 5
+      Data: false
+    - Name: portVisible
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: orientation
+      Entry: 3
+      Data: 1
+    - Name: entity
+      Entry: 6
+      Data: 
+    - Name: nodeName
+      Entry: 1
+      Data: dynamicInput_21
+    - Name: entityName
+      Entry: 1
+      Data: Savings
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: port
+      Entry: 9
+      Data: 82
+    - Name: style
+      Entry: 7
+      Data: 164|NodeFilterStyle, Assembly-CSharp
     - Name: unfolded
       Entry: 5
       Data: false
@@ -4867,10 +4706,10 @@ MonoBehaviour:
       Data: 3
     - Name: actionType
       Entry: 7
-      Data: 144|System.RuntimeType, mscorlib
+      Data: 165|System.RuntimeType, mscorlib
     - Name: 
       Entry: 1
-      Data: SomeAction, Assembly-CSharp
+      Data: GoFish, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 

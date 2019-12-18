@@ -101,10 +101,29 @@ public class AssetMaker : OdinEditorWindow
     }
 
     [Button("New archetype")]
+    
     public void makeArchetype()
     {
         mEntity asset = CreateInstance<mEntity>();
         AssetDatabase.CreateAsset(asset, "Assets/Model base/Data/Entities/Archetypes/" + "New Archetype" + ".asset");
+
+        AssetDatabase.SaveAssets();
+        EditorUtility.FocusProjectWindow();
+        Selection.activeObject = asset;
+    }
+
+    [MenuItem("Assets/New Entity Asset")]
+    public static void MakeAsset()
+    {
+        var path = "";
+        var obj = Selection.activeObject;
+            if (obj == null)
+                path = "Assets";
+            else
+                path = AssetDatabase.GetAssetPath(obj.GetInstanceID());
+
+        mEntity asset = CreateInstance<mEntity>();
+        AssetDatabase.CreateAsset(asset, path + "/" + "New Entity" + ".asset");
 
         AssetDatabase.SaveAssets();
         EditorUtility.FocusProjectWindow();

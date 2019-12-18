@@ -64,11 +64,15 @@
     <Compile Include="Assets\Graph_Maker\Examples\X_Dynamic\WMG_X_Dynamic.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Equation_Plotter\WMG_X_Equation_Plotter.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Interactive_Pie\WMG_X_Interactive_Pie.cs" />
+    <Compile Include="Assets\Graph_Maker\Examples\X_Large_LinesOnly\WMG_X_Large_LinesOnly.cs" />
+    <Compile Include="Assets\Graph_Maker\Examples\X_Large_Scatter\WMG_X_Large_Scatter.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Pie_Ring_Graph\WMG_X_Pie_Ring_Graph.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Plot_Overtime\Editor\WMG_X_Plot_Overtime_E.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Plot_Overtime\WMG_X_Plot_Overtime.cs" />
+    <Compile Include="Assets\Graph_Maker\Examples\X_Radar_Graph\WMG_X_Radar_Graph.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Ring_Graph\WMG_X_Ring_Graph.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Simple_Pie\WMG_X_Simple_Pie.cs" />
+    <Compile Include="Assets\Graph_Maker\Examples\X_Stacked_Line\WMG_X_Stacked_Line.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_Tutorial_1\WMG_X_Tutorial_1.cs" />
     <Compile Include="Assets\Graph_Maker\Examples\X_WorldSpace\WMG_X_WorldSpace.cs" />
     <Compile Include="Assets\Graph_Maker\Scripts\Editor\WMG_Axis_Graph_E.cs" />
@@ -123,6 +127,7 @@
     <None Include="Assets\Graph_Maker\DOTween\readme.txt" />
     <None Include="Assets\Graph_Maker\Shaders\AreaShading.shader" />
     <None Include="Assets\Graph_Maker\Shaders\AreaShading_SF.shader" />
+    <None Include="Assets\Graph_Maker\ReadMe-1.5.9.txt" />
     <None Include="Assets\Graph_Maker\ReadMe-1.5.8.txt" />
     <None Include="Assets\Graph_Maker\Shaders\ComputeLineGraph.compute" />
     <Reference Include="UnityEngine.AIModule">

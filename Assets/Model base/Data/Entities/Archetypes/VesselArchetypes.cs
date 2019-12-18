@@ -3,7 +3,7 @@ using Sirenix.Serialization;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using static StructData;
+
 
 public class VesselArchetypes : SerializedScriptableObject
 {

@@ -25,7 +25,7 @@ public class SimpleNodeEditor : NodeEditor
     string status = "closed";
 
     mEntity test = new mEntity();
-    IComponent testC = new VesselComponents.BaseQuota();
+   // IComponent testC = new Vessel.BaseQuota();
     [Indent]
     PropertyTree tree;
 
@@ -225,6 +225,11 @@ public class SimpleNodeEditor : NodeEditor
 
     public void drawEntity(NodeMEntity entity)
     {
+        string name = "Entity";
+
+        if (entity.entityName != "")
+            name = entity.entityName;
+
         if (entity.orientation == PortOrientation.In)
         {
             //SirenixEditorGUI.
@@ -232,7 +237,9 @@ public class SimpleNodeEditor : NodeEditor
             SirenixEditorGUI.BeginBox();
             Rect rect = EditorGUILayout.GetControlRect();
             //  rect = EditorGUI.PrefixLabel(rect, new GUIContent("   "));
-            rect = EditorGUI.PrefixLabel(rect, new GUIContent("Entity"));
+            
+
+            rect = EditorGUI.PrefixLabel(rect, new GUIContent(name));
 
             if (GUI.Button(rect.AlignRight(15), EditorIcons.ArrowDown.Raw))
             {
@@ -246,7 +253,7 @@ public class SimpleNodeEditor : NodeEditor
         {
             SirenixEditorGUI.BeginBox();
             Rect rect = EditorGUILayout.GetControlRect();
-            EditorGUI.LabelField(rect.AlignRight(40), "Entity");
+            EditorGUI.LabelField(rect.AlignRight(80), name);
             if (GUI.Button(rect.AlignLeft(15), EditorIcons.ArrowDown.Raw))
             {
                 entity.style.unfolded = !entity.style.unfolded;
@@ -271,7 +278,6 @@ public class SimpleNodeEditor : NodeEditor
         else
         {
             NodeEditorGUILayout.AddPortField(entity.port);
-
         }
     }
 
@@ -292,7 +298,14 @@ public class SimpleNodeEditor : NodeEditor
             {
                 GUILayout.Label("the tree is null somehow");
             }
-            component.tree.Draw(false);
+            if (component.tree != null)
+                component.tree.Draw(false);
+            else
+            {
+                component.tree = PropertyTree.Create(component.component);
+                component.tree.Draw(false);
+            }
+                //Debug.Log(component.tree.WeakTargets);
             SirenixEditorGUI.EndBox();
 
         }

@@ -22,11 +22,5 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   inFilter:
-  - {fileID: 11400000, guid: a20a21136b631a54faf68113a301b143, type: 2}
-  - {fileID: 11400000, guid: 5652103d882fd0648b66640cd4cf96c8, type: 2}
-  - {fileID: 11400000, guid: 026ed6e28ff74ed48b1d3d2e779921df, type: 2}
-  - {fileID: 11400000, guid: da75a1830b8702a44b8ad1cbe190ebdb, type: 2}
-  outFilter:
-  - {fileID: 11400000, guid: d04dc3fffd16fe248a888e8b9e1dfaf7, type: 2}
-  - {fileID: 11400000, guid: 8457444a1a9c2d94393bfdb809e32028, type: 2}
-  - {fileID: 11400000, guid: 7b87a8a3733cee849b743f3aa81436ef, type: 2}
+  - {fileID: 0}
+  outFilter: []

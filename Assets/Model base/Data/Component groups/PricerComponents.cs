@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PricerComponents
+namespace PricerComponents
 {
     public class Price : IComponent
     {

@@ -1,6 +1,7 @@
 ﻿using Sirenix.OdinInspector;
 using Sirenix.OdinInspector.Editor;
 using Sirenix.Serialization;
+using System;
 using UnityEditor;
 using UnityEngine;
 using XNode;
@@ -11,7 +12,7 @@ public class NodeIComponent // : SerializedScriptableObject
      public IComponent component;
      public Node parent;
      public NodeMEntity parentEntity;
-     public PropertyTree tree;
+     [NonSerialized] public PropertyTree tree;
      public NodePort port;
      public NodeIComponentStyle style = new NodeIComponentStyle();
 
@@ -34,8 +35,6 @@ public class NodeIComponent // : SerializedScriptableObject
         style.portVisible = false;
 
         tree = PropertyTree.Create(component);
-
-        
     }
 
     public void init(IComponent c, Node node, NodeMEntity entity, PortOrientation orientation)
@@ -59,5 +58,11 @@ public class NodeIComponent // : SerializedScriptableObject
 
         AssetDatabase.SaveAssets();
 
+    }
+
+    public void OnAfterDeserialize()
+    {
+        tree = PropertyTree.Create(component);
+        Debug.Log("after deserialize component");
     }
 }
