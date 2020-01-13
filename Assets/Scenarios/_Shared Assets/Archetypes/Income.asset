@@ -42,5 +42,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  name: Income
+  entityName: Income
   ID: 

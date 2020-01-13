@@ -21,5 +21,9 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  inFilter: []
-  outFilter: []
+  inFilter:
+  - {fileID: 11400000, guid: ad1cdeacb1aef9a428b8490de5338706, type: 2}
+  outFilter:
+  - {fileID: 11400000, guid: ad1cdeacb1aef9a428b8490de5338706, type: 2}
+  - {fileID: 11400000, guid: 90c464f88a631eb4f8d1b1089cde1f79, type: 2}
+  - {fileID: 11400000, guid: 505b11565e4cccf47991651a99125abe, type: 2}

@@ -22,7 +22,7 @@ public class NodeMEntity //: SerializedScriptableObject
     public NodeMEntity(mEntity entity, Node node, PortOrientation orientation)
     {
         this.orientation = orientation;
-        entityName = entity.name;
+        entityName = entity.entityName;
         parent = node;
 
         foreach(IComponent c in entity.components)
@@ -53,7 +53,7 @@ public class NodeMEntity //: SerializedScriptableObject
        // port = CreateInstance("NodePort") as NodePort;
         this.orientation = orientation;
         this.entity = entity;
-        entityName = entity.name;
+        entityName = entity.entityName;
         parent = node;
         Debug.Log("entity components: " + entity.components.Count);
         foreach (IComponent c in entity.components)
@@ -80,5 +80,26 @@ public class NodeMEntity //: SerializedScriptableObject
             style.unfolded = false;
             style.portVisible = false;
         AssetDatabase.SaveAssets();
+    }
+
+    public bool Contains(NodeMEntity e)
+    {
+      //  bool contains = true;
+        bool found = false;
+
+        foreach (NodeIComponent foreignC in e.components)
+        {
+            found = false;
+            foreach(NodeIComponent localC in components)
+            {
+                if(localC.component.GetType().Equals(foreignC.component.GetType()))
+                {
+                    found = true;
+                }
+            }
+            if (!found) return false;
+        }
+
+        return true;
     }
 }

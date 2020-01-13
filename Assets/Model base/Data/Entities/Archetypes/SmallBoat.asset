@@ -29,70 +29,37 @@ MonoBehaviour:
       Data: 6
     - Name: 
       Entry: 7
-      Data: 1|VesselComponents+Capacity, Assembly-CSharp
-    - Name: capacity
-      Entry: 4
-      Data: 5
+      Data: 1|IComponent, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 2|GeneralComponents+Cost, Assembly-CSharp
-    - Name: cost
-      Entry: 4
-      Data: 0
+      Data: 2|IComponent, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 3|VesselComponents+Crew, Assembly-CSharp
-    - Name: crewNumber
-      Entry: 3
-      Data: 0
+      Data: 3|IComponent, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|GeneralComponents+Efficiency, Assembly-CSharp
-    - Name: efficiency
-      Entry: 4
-      Data: 0
+      Data: 4|IComponent, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 5|GeneralComponents+MaintenanceCost, Assembly-CSharp
-    - Name: cost
-      Entry: 4
-      Data: 0
-    - Name: period
-      Entry: 3
-      Data: 0
+      Data: 5|IComponent, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 6|GeneralComponents+Inventory, Assembly-CSharp
-    - Name: list
-      Entry: 7
-      Data: 7|System.Collections.Generic.List`1[[mEntity, Assembly-CSharp]], mscorlib
-    - Name: 
-      Entry: 12
-      Data: 1
-    - Name: 
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 13
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
+      Data: 6|IComponent, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
@@ -102,5 +69,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  entityName: 
   ID: 
-  name: SmallBoat

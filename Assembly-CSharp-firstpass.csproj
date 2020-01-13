@@ -450,6 +450,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:/PhD docs/Code/Sandbox 2.0/Assets/Plugins/Graph_Maker/DOTween/DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
@@ -479,9 +482,6 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Library/PackageCache/com.unity.collections@0.0.9-preview.12/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>D:/PhD docs/Code/Sandbox 2.0/Assets/Plugins/Graph_Maker/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -843,21 +843,21 @@
       <Project>{B8143FE6-7903-806B-0B4E-CEEA709043A9}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
-      <Project>{1B946FAA-4F78-D6FE-0F78-1C6D0ADD8E6C}</Project>
-      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    <ProjectReference Include="XNode.csproj">
+      <Project>{37F6FD6A-5777-5B88-8640-53A58240CA59}</Project>
+      <Name>XNode</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinValidator.csproj">
       <Project>{DFE76D3F-F3C1-9143-C94A-10B82AFAA1E9}</Project>
       <Name>Sirenix.OdinValidator</Name>
     </ProjectReference>
-    <ProjectReference Include="XNode.csproj">
-      <Project>{37F6FD6A-5777-5B88-8640-53A58240CA59}</Project>
-      <Name>XNode</Name>
-    </ProjectReference>
     <ProjectReference Include="XNodeEditor.csproj">
       <Project>{6B372487-07AD-3344-D092-DA9F1A33E4E9}</Project>
       <Name>XNodeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{1B946FAA-4F78-D6FE-0F78-1C6D0ADD8E6C}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

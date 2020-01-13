@@ -29,13 +29,7 @@ MonoBehaviour:
       Data: 1
     - Name: 
       Entry: 7
-      Data: 1|VesselComponents+Gear, Assembly-CSharp
-    - Name: name
-      Entry: 1
-      Data: LongLine
-    - Name: targetSpecies
-      Entry: 1
-      Data: default
+      Data: 1|IComponent, Assembly-CSharp
     - Name: 
       Entry: 8
       Data: 
@@ -45,5 +39,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  entityName: LongLine
   ID: 
-  name: 

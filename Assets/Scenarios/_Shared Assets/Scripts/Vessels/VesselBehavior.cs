@@ -9,6 +9,7 @@ public class VesselBehavior : MonoBehaviour
 {
     public delegate void VesselReturnsEventHandler(object source, EventArgs args);
     public event VesselReturnsEventHandler VesselReturns;
+    public mEntity vesselProfile;
 
     public Tilemap resourceMap;
     public Vector3Int homeTileIndex;

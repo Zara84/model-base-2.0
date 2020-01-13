@@ -105,12 +105,23 @@
     <Compile Include="Assets\Model base\Graphs\Utils\NodeFilterStyle.cs" />
     <Compile Include="Assets\Model base\Graphs\Utils\NodeIComponent.cs" />
     <Compile Include="Assets\Model base\Graphs\Utils\NodeMEntity.cs" />
+    <Compile Include="Assets\Model base\Pluggable reasoners\Base\PluggableBehavior.cs" />
+    <Compile Include="Assets\Model base\Pluggable reasoners\Base\PluggableBehaviorBase.cs" />
+    <Compile Include="Assets\Model base\Pluggable reasoners\Base\PluggablePerception.cs" />
+    <Compile Include="Assets\Model base\Pluggable reasoners\Base\PluggableReasoning.cs" />
     <Compile Include="Assets\Model base\Scripts\IComponent.cs" />
     <Compile Include="Assets\Model base\Scripts\Utils\EntityAdder.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\Community.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\Flags.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\General.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\Helpers.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\Person.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\Resource.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\Vessel.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Component groups\WorkPlace.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\PluggableBehavior\AuctionMarket.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\PluggableBehavior\BaseMarket.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\PluggableBehavior\SimpleMarket.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Agents\AgentBehavior.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Buy.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Discard.cs" />
@@ -119,16 +130,23 @@
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Maintain.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Sell.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Goals\KeepFishing.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Goals\MaxProfit.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\CommunityScript.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\Harbor\HarborBehavior.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\Harbor\HarborData.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\Harbor\HarborMaster.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\Harbor\HarborScript.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\Market\MarketScript.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\Workplace\WorkPlaceScript.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\GameMaster\DataManager.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\GameMaster\GameMaster.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\GameMaster\MapMaster.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\GameMaster\ScenarioManager.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\GameMaster\Timer.cs" />
-    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Harbor\HarborBehavior.cs" />
-    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Harbor\HarborData.cs" />
-    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Harbor\HarborMaster.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Resource\MarineResourceBehavior.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Resource\ResourceGrid.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Resource\ResourceTile.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Utils\ECUtils.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Vessels\Boat Movement Scripts\BoatMaster.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Vessels\Boat Movement Scripts\BoatTileMovement.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Vessels\VesselBehavior.cs" />
@@ -439,6 +457,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>D:/PhD docs/Code/Sandbox 2.0/Assets/Plugins/Graph_Maker/DOTween/DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Assets/Plugins/Sirenix/Assemblies/Sirenix.OdinInspector.Attributes.dll</HintPath>
     </Reference>
@@ -468,9 +489,6 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>D:/PhD docs/Code/Sandbox 2.0/Library/PackageCache/com.unity.collections@0.0.9-preview.12/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>D:/PhD docs/Code/Sandbox 2.0/Assets/Plugins/Graph_Maker/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -836,21 +854,21 @@
       <Project>{B8143FE6-7903-806B-0B4E-CEEA709043A9}</Project>
       <Name>Sirenix.OdinInspector.CompatibilityLayer</Name>
     </ProjectReference>
-    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
-      <Project>{1B946FAA-4F78-D6FE-0F78-1C6D0ADD8E6C}</Project>
-      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
+    <ProjectReference Include="XNode.csproj">
+      <Project>{37F6FD6A-5777-5B88-8640-53A58240CA59}</Project>
+      <Name>XNode</Name>
     </ProjectReference>
     <ProjectReference Include="Sirenix.OdinValidator.csproj">
       <Project>{DFE76D3F-F3C1-9143-C94A-10B82AFAA1E9}</Project>
       <Name>Sirenix.OdinValidator</Name>
     </ProjectReference>
-    <ProjectReference Include="XNode.csproj">
-      <Project>{37F6FD6A-5777-5B88-8640-53A58240CA59}</Project>
-      <Name>XNode</Name>
-    </ProjectReference>
     <ProjectReference Include="XNodeEditor.csproj">
       <Project>{6B372487-07AD-3344-D092-DA9F1A33E4E9}</Project>
       <Name>XNodeEditor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj">
+      <Project>{1B946FAA-4F78-D6FE-0F78-1C6D0ADD8E6C}</Project>
+      <Name>Sirenix.OdinInspector.CompatibilityLayer.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

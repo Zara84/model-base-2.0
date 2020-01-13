@@ -6,10 +6,11 @@ using UnityEngine;
 
 public class mEntity : SerializedScriptableObject
 {
-
+    [Delayed]
+    [Required]
     [OnValueChanged("Rename")]
   //  [GUIColor("SetColorName")]
-    new public string name;
+    public string entityName;
 
     public string ID;
 
@@ -21,24 +22,39 @@ public class mEntity : SerializedScriptableObject
         string path = "";
         string newname = "";
 
-        if(name == "")
+        if(entityName == "")
         {
             newname = "New Entity";
+            name = "New Entity";
             path = AssetDatabase.GetAssetPath(Selection.activeObject);
             AssetDatabase.RenameAsset(path, newname + ".asset");
         }
         else
         {
-            newname = name;
+            newname = entityName;
+            name = entityName;
             path = AssetDatabase.GetAssetPath(Selection.activeObject);
             AssetDatabase.RenameAsset(path, newname + ".asset");
         }
 
-        
+        AssetDatabase.SaveAssets();
+    }
+
+    public bool Contains(mEntity e)
+    {
+        bool contains = true;
+
+        foreach(IComponent c in e.components)
+        {
+            if (!components.Contains(c))
+                contains = false;
+        }
+
+        return contains;
     }
     public Color SetColorName()
     {
-        if (name == "")
+        if (entityName == "")
             return Color.red;
         else
             return Color.green;

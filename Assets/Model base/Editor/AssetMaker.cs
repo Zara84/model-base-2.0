@@ -129,4 +129,44 @@ public class AssetMaker : OdinEditorWindow
         EditorUtility.FocusProjectWindow();
         Selection.activeObject = asset;
     }
+
+    [MenuItem("Assets/New Behavior Asset")]
+    public static void MakePluggableBehavior()
+    {
+        var path = "";
+        var obj = Selection.activeObject;
+        if (obj == null)
+            path = "Assets";
+        else
+            path = AssetDatabase.GetAssetPath(obj.GetInstanceID());
+
+     //   System.Reflection.Assembly assembly = typeof(MAction).Assembly;
+        string name = Selection.activeObject.name;
+     //   Type type = assembly.GetType(name);
+        //Debug.Log(type);
+        //Debug.Log(name);
+        //Debug.Log(typeof(Norm).Assembly);
+        var asset = CreateInstance(name);
+      //  Convert.ChangeType(asset, type);
+
+        path = getParentFolderPath(path);
+       
+        AssetDatabase.CreateAsset(asset, path + name + ".asset");
+
+        AssetDatabase.SaveAssets();
+        EditorUtility.FocusProjectWindow();
+        Selection.activeObject = asset;
+    }
+
+    static string getParentFolderPath(string path)
+    {
+        string folder = "";
+        string[] pathComp = path.Split('/');
+
+        for(int i=0; i<pathComp.Length-1; i++)
+        {
+            folder += pathComp[i] + "/";
+        }
+        return folder;
+    }
 }

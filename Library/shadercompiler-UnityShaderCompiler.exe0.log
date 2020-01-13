@@ -1,19 +1,10 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
-Cmd: preprocess
-  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
@@ -23,89 +14,69 @@ Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=12540 outsize=7976 ok=1
-Cmd: preprocess
-  insize=12052 outsize=7488 ok=1
-Cmd: preprocessCompute
-  insize=9059 outsize=9058 ok=1
-Cmd: compileComputeKernel
-  api=4 insize=9058 outsize=9997 ok=1
-Cmd: preprocess
-  insize=12540 outsize=7976 ok=1
-Cmd: preprocess
-  insize=12052 outsize=7488 ok=1
-Cmd: preprocess
-  insize=12540 outsize=7976 ok=1
-Cmd: preprocess
-  insize=12052 outsize=7488 ok=1
-Cmd: preprocess
-  insize=12540 outsize=7976 ok=1
-Cmd: preprocess
-  insize=12052 outsize=7488 ok=1
-Cmd: preprocess
-  insize=12540 outsize=7976 ok=1
-Cmd: preprocess
-  insize=12052 outsize=7488 ok=1
-Cmd: preprocessCompute
-  insize=5069 outsize=5068 ok=1
-Cmd: preprocessCompute
-  insize=9059 outsize=9058 ok=1
-Cmd: preprocess
-  insize=12540 outsize=7976 ok=1
-Cmd: preprocess
-  insize=12052 outsize=7488 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=1516 outsize=295 ok=1
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: preprocess
-  insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: preprocess
@@ -121,9 +92,9 @@ Cmd: preprocess
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
@@ -132,6 +103,7 @@ Cmd: preprocess
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
@@ -140,31 +112,17 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
-Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: preprocess
@@ -172,18 +130,21 @@ Cmd: preprocess
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
@@ -191,6 +152,8 @@ Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: initializeCompiler
@@ -205,13 +168,11 @@ Cmd: preprocess
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
@@ -220,19 +181,16 @@ Cmd: preprocess
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
@@ -241,10 +199,14 @@ Cmd: preprocess
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
@@ -266,9 +228,9 @@ Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
@@ -279,24 +241,23 @@ Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
-Cmd: initializeCompiler
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: preprocess
+  insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
 Cmd: initializeCompiler
-Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1
+Cmd: initializeCompiler
 Cmd: initializeCompiler
 Cmd: preprocess
   insize=1516 outsize=295 ok=1

@@ -76,5 +76,5 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  name: Expenses
+  entityName: Expenses
   ID: 

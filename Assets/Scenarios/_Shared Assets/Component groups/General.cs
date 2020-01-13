@@ -8,10 +8,7 @@ namespace GeneralComponents
     {
         public float value;
     }
-    public class LivingCosts : IComponent
-    {
-        public float cost;
-    }
+    
     public class Efficiency : IComponent
     {
         [Range(0f,1f)]
@@ -72,11 +69,27 @@ namespace GeneralComponents
 
     public class Inventory : IComponent
     {
+        public string name;
         public List<mEntity> list = new List<mEntity>();
     }
 
     public class Quality : IComponent
     {
         public int quality;
+    }
+
+    public class Occupancy : IComponent
+    {
+        public int value;
+    }
+
+    public class Prefab : IComponent
+    {
+        public GameObject prefab;
+    }
+
+    public class SceneObject : IComponent
+    {
+        public GameObject gameObject;
     }
 }

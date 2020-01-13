@@ -21,6 +21,7 @@ public class GameMaster : MonoBehaviour
     public Color minColor;
 
     public List<GameObject> harbors = new List<GameObject>();
+    public List<GameObject> communities = new List<GameObject>();
 
     public int dayCount = 0;
 
@@ -84,6 +85,7 @@ public class GameMaster : MonoBehaviour
     {
         foreach(GameObject harbor in harbors)
         {
+
             for (int i = 0; i < 9; i++)
             {
                 GameObject v = Instantiate(vesselPrefabs[harbors.IndexOf(harbor)]);
