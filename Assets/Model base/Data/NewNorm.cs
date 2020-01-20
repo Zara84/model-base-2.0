@@ -7,18 +7,18 @@ using UnityEngine;
 
 public class NewNorm: MNorm
 {
-    public override void execute(MonoBehaviour owner)
+    public override void execute(BaseAgentBehavior owner)
     {
         action.execute(owner);
     }
 
-    public override bool isActive(MonoBehaviour owner)
+    public override bool isActive(BaseAgentBehavior owner)
     {
         // check if the context matches beliefs
         return false;
     }
 
-    public override bool isDoable(MonoBehaviour owner)
+    public override bool isDoable(BaseAgentBehavior owner)
     {
         return action.isDoable(owner);
     }

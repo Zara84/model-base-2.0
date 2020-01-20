@@ -123,6 +123,7 @@
     <Compile Include="Assets\Scenarios\_Shared Assets\PluggableBehavior\BaseMarket.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\PluggableBehavior\SimpleMarket.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Agents\AgentBehavior.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Agents\BaseAgentBehavior.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Buy.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Discard.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\GoFish.cs" />
@@ -130,6 +131,7 @@
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Maintain.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Actions\Sell.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Goals\KeepFishing.cs" />
+    <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Goals\MaxCatchValue.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\CognitiveElements\Goals\MaxProfit.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\CommunityScript.cs" />
     <Compile Include="Assets\Scenarios\_Shared Assets\Scripts\Community\Harbor\HarborBehavior.cs" />

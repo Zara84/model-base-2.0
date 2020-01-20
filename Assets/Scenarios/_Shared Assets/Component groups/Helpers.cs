@@ -14,9 +14,15 @@ namespace Helpers
         public List<MNorm> list = new List<MNorm>();
     }
 
-    public class GoalListCOmponent : IComponent
+    public class GoalListComponent : IComponent
     {
         public List<MGoal> list = new List<MGoal>();
     }
 
+    public class EntityQuantityPair : IComponent
+    {
+        public string name;
+        public mEntity entity;
+        public int quantity;
+    }
 }

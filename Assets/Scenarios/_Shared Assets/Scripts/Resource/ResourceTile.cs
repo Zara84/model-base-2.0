@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
     public class ResourceTile
     {
-        public float carryCapacity { get; set; }
+        public float carryCapacity;
         public float currentResource { get; set; }
         public float updatedResource { get; set; }
         public float growthRate { get; set; }

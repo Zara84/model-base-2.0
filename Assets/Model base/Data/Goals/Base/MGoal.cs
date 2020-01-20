@@ -1,7 +1,9 @@
 ﻿using Sirenix.OdinInspector;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public abstract class MGoal : SerializedScriptableObject
 {
@@ -17,5 +19,5 @@ public abstract class MGoal : SerializedScriptableObject
     {
         EntityAdder.AddEntity(list, folderName);
     }
-    public abstract float distance(MonoBehaviour owner, MAction action);
+    public abstract float distance(BaseAgentBehavior owner, MAction action);
 }

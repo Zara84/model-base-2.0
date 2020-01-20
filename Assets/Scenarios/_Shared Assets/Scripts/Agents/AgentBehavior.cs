@@ -1,22 +1,21 @@
-﻿using Sirenix.OdinInspector;
+﻿using GeneralComponents;
+using Helpers;
+using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AgentBehavior : SerializedMonoBehaviour
+public class AgentBehavior : BaseAgentBehavior
 {
-    public List<mEntity> entities = new List<mEntity>();
+    
 
-    public List<MAction> actions = new List<MAction>();
-
-    public List<MNorm> norms = new List<MNorm>();
-
-    public List<GameObject> vessels = new List<GameObject>();
+    //reasoners here too.
+    //also - data collection
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        /*
         foreach(GameObject vessel in vessels)
         {
             vessel.GetComponent<VesselBehavior>().VesselReturns += OnVesselReturn;
@@ -27,6 +26,7 @@ public class AgentBehavior : SerializedMonoBehaviour
             a.execute(this);
             
         }
+        */
     }
 
     // Update is called once per frame
@@ -47,6 +47,7 @@ public class AgentBehavior : SerializedMonoBehaviour
 
     void deliberate()
     {
+        //
         //pick action/norm
     }
 
@@ -59,4 +60,6 @@ public class AgentBehavior : SerializedMonoBehaviour
     {
         Debug.Log("Vessel returns");
     }
+
+    
 }

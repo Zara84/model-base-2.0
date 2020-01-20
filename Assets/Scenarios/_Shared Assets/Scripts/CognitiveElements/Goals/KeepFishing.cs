@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class KeepFishing: MGoal
 {
-    public override float distance(MonoBehaviour owner, MAction action)
+    public override float distance(BaseAgentBehavior owner, MAction action)
+
     {
         //calculate distance to goal after applying action
-
+        
         return -1f;
     }
 }

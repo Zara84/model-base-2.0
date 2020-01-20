@@ -17,9 +17,6 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 1587156391130957482, guid: f62830f0018a7b243b2f336933ba410e, type: 3}
-    - {fileID: 0}
-    - {fileID: 11400000, guid: 0cc584f17e2c7c64b8ed470814e374d5, type: 2}
-    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -30,28 +27,46 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[IComponent, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
-      Data: 7
+      Data: 6
     - Name: 
       Entry: 7
-      Data: 1|WorkPlace.Wage, Assembly-CSharp
-    - Name: value
-      Entry: 4
+      Data: 1|GeneralComponents.Prefab, Assembly-CSharp
+    - Name: prefab
+      Entry: 10
       Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 2|WorkPlace.Employees, Assembly-CSharp
-    - Name: employees
-      Entry: 3
-      Data: 0
+      Data: 2|GeneralComponents.SceneObject, Assembly-CSharp
+    - Name: gameObject
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 3|GeneralComponents.Position, Assembly-CSharp
+      Data: 3|Community.CommunityProfile, Assembly-CSharp
+    - Name: profile
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 4|Community.CommunityObject, Assembly-CSharp
+    - Name: community
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|GeneralComponents.Position, Assembly-CSharp
     - Name: position
       Entry: 7
       Data: UnityEngine.Vector3, UnityEngine.CoreModule
@@ -63,46 +78,19 @@ MonoBehaviour:
       Data: 2
     - Name: 
       Entry: 4
-      Data: 0.05
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 4|GeneralComponents.Prefab, Assembly-CSharp
-    - Name: prefab
-      Entry: 10
       Data: 0
     - Name: 
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: 5|GeneralComponents.SceneObject, Assembly-CSharp
-    - Name: gameObject
-      Entry: 10
-      Data: 1
-    - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 6|Community.CommunityProfile, Assembly-CSharp
-    - Name: profile
-      Entry: 10
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|Community.CommunityObject, Assembly-CSharp
-    - Name: community
-      Entry: 10
-      Data: 3
+      Data: 6|GeneralComponents.Occupancy, Assembly-CSharp
+    - Name: value
+      Entry: 3
+      Data: 0
     - Name: 
       Entry: 8
       Data: 

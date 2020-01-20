@@ -17,9 +17,6 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 1027527883969849901, guid: fae488b59897b6342b898db4f460a31b, type: 3}
-    - {fileID: 0}
-    - {fileID: 11400000, guid: 94b76aabdca73de499afaf53a24bb06e, type: 2}
-    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -30,7 +27,7 @@ MonoBehaviour:
       Data: 0|System.Collections.Generic.List`1[[IComponent, Assembly-CSharp]], mscorlib
     - Name: 
       Entry: 12
-      Data: 7
+      Data: 5
     - Name: 
       Entry: 7
       Data: 1|GeneralComponents.Prefab, Assembly-CSharp
@@ -44,23 +41,32 @@ MonoBehaviour:
       Entry: 7
       Data: 2|GeneralComponents.SceneObject, Assembly-CSharp
     - Name: gameObject
-      Entry: 10
-      Data: 1
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 3|GeneralComponents.Occupancy, Assembly-CSharp
-    - Name: value
-      Entry: 3
-      Data: 15
+      Data: 3|Community.CommunityProfile, Assembly-CSharp
+    - Name: profile
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
     - Name: 
       Entry: 7
-      Data: 4|GeneralComponents.Position, Assembly-CSharp
+      Data: 4|Community.CommunityObject, Assembly-CSharp
+    - Name: community
+      Entry: 6
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|GeneralComponents.Position, Assembly-CSharp
     - Name: position
       Entry: 7
       Data: UnityEngine.Vector3, UnityEngine.CoreModule
@@ -72,37 +78,10 @@ MonoBehaviour:
       Data: 9
     - Name: 
       Entry: 4
-      Data: 0.05
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 5|Community.CommunityScript, Assembly-CSharp
-    - Name: script
-      Entry: 6
-      Data: 
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 6|Community.CommunityProfile, Assembly-CSharp
-    - Name: profile
-      Entry: 10
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
-      Entry: 7
-      Data: 7|Community.CommunityObject, Assembly-CSharp
-    - Name: community
-      Entry: 10
-      Data: 3
     - Name: 
       Entry: 8
       Data: 

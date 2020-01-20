@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Model base\Editor\AgentProfileEditor.cs" />
     <Compile Include="Assets\Model base\Editor\AssetMaker.cs" />
     <Compile Include="Assets\Model base\Editor\MakeSimStepAsset.cs" />
     <Compile Include="Assets\Model base\Graphs\Tests\Editor\ActNodeEditor.cs" />

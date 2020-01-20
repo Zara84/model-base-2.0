@@ -1,8 +1,10 @@
 ﻿using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
+
 
 public class mEntity : SerializedScriptableObject
 {
@@ -66,5 +68,40 @@ public class mEntity : SerializedScriptableObject
             return Color.red;
         else
             return Color.green;
+    }
+
+    public T getComponent<T>() where T : IComponent
+    {
+        foreach (IComponent c in components)
+        {
+            if (c is T)
+                return c as T;
+        }
+        return null;
+    }
+
+    public List<T> getComponents<T>() where T : IComponent //move to UTILS
+    {
+        List<T> list = new List<T>();
+        foreach (IComponent c in components)
+        {
+            if (c is T)
+                list.Add(c as T);
+        }
+        return list;
+    }
+
+    public mEntity copy()
+    {
+        mEntity copy = CreateInstance<mEntity>();
+        copy.name = this.name + "*";
+        copy.entityName = this.entityName + "*";
+
+       // copy.components = new List<IComponent>(this.components);//this.components.ToList();
+        foreach(IComponent c in components)
+        {
+            copy.components.Add(ECUtils.DeepCopyComponent(c));
+        }
+        return copy;
     }
 }

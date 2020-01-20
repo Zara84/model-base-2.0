@@ -7,6 +7,7 @@ using Sirenix.Serialization;
 using UnityEditor;
 using Sirenix.Utilities.Editor;
 
+[Serializable]
 public abstract class MAction : SerializedScriptableObject
 {
     //  [OdinSerialize]
@@ -67,15 +68,15 @@ public abstract class MAction : SerializedScriptableObject
         Debug.Log(e.entityName);
     }
     
-    public abstract bool  isDoable(MonoBehaviour owner);
+    public abstract bool  isDoable(BaseAgentBehavior owner);
 
-    public abstract float distanceToGoal(MonoBehaviour owner, MGoal goal);
+    public abstract float distanceToGoal(BaseAgentBehavior owner, MGoal goal);
 
-    public abstract void execute(MonoBehaviour owner);
+    public abstract void execute(BaseAgentBehavior owner);
 
-    public abstract List<mEntity> getTargets(MonoBehaviour owner);
+    public abstract List<mEntity> getTargets(BaseAgentBehavior owner);
 
-    public abstract bool canBeAppliedTo(MonoBehaviour owner, mEntity entity);
+    public abstract bool canBeAppliedTo(BaseAgentBehavior owner, mEntity entity);
 
 
 }

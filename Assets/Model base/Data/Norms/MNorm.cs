@@ -1,7 +1,9 @@
 ﻿using Sirenix.OdinInspector;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public abstract class MNorm : SerializedScriptableObject
 {
@@ -23,7 +25,8 @@ public abstract class MNorm : SerializedScriptableObject
     public MAction action;
     public bool active;
 
-    public abstract bool isActive(MonoBehaviour owner);
-    public abstract bool isDoable(MonoBehaviour owner);
-    public abstract void execute(MonoBehaviour owner);
+    public abstract bool isActive(BaseAgentBehavior owner);
+    public abstract bool isDoable(BaseAgentBehavior owner);
+    public abstract void execute(BaseAgentBehavior owner);
+
 }

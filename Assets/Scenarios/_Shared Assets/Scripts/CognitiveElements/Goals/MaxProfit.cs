@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MaxProfit: MGoal
 {
-    public override float distance(MonoBehaviour owner, MAction action)
+    public override float distance(BaseAgentBehavior owner, MAction action)
     {
         //calculate distance to goal after applying action
 
